@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-  site: 'https://serwis.lngbestpartner.pl',
+  site: 'https://lng.best',
   output: 'static',
 });
