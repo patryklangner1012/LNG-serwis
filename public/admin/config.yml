@@ -4,7 +4,6 @@ backend:
 
 media_folder: "public/images/posts"
 public_folder: "/images/posts"
-
 locale: pl
 
 collections:
@@ -20,6 +19,6 @@ collections:
         name: "tag"
         widget: "select"
         options: ["Realizacja", "Technologia", "Interwencja", "Usługi", "Aktualność"]
-      - { label: "Krótki opis (excerpt)", name: "excerpt", widget: "text" }
+      - { label: "Krótki opis", name: "excerpt", widget: "text" }
       - { label: "Zdjęcie główne", name: "image", widget: "image", required: false }
       - { label: "Treść", name: "body", widget: "markdown" }

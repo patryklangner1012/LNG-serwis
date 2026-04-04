@@ -10,40 +10,43 @@ const posts = postFiles
 <Base>
   <Nav />
 
-  <!-- HERO -->
+  <!-- ═══ HERO ═══ -->
   <section class="hero">
-    <div class="hero-inner">
-      <div class="hero-text">
-        <div class="eyebrow">
-          <div class="eyebrow-line"></div>
-          <span class="eyebrow-text">Północna Polska · Obsługa Europy</span>
-        </div>
-        <h1>Specjalistyczny serwis<br>cystern <em>kriogenicznych</em><br>i technologii LNG</h1>
-        <p>Ponad dekada precyzji technicznej w obsłudze pojazdów i zbiorników kriogenicznych. Laserowa detekcja metanu, helowa identyfikacja nieszczelności, termowizja. Jeden partner. Pełna odpowiedzialność.</p>
-        <div class="hero-btns">
-          <a href="#uslugi" class="btn-dark">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Poznaj nasze usługi
-          </a>
-          <a href="tel:795196740" class="btn-blue">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z" fill="#fff"/></svg>
-            795 196 740
-          </a>
-        </div>
-        <div class="hero-stats">
-          <div class="stat"><span class="stat-n">10+</span><span class="stat-l">Lat doświadczenia</span></div>
-          <div class="stat"><span class="stat-n">A–Z</span><span class="stat-l">Pełen zakres obsługi</span></div>
-          <div class="stat"><span class="stat-n">PL/EU</span><span class="stat-l">Zasięg mobilny</span></div>
-        </div>
+    <div class="hero-l">
+      <div class="hero-tag">
+        <span class="hero-tag-dot"></span>
+        Północna Polska · Obsługa całej Europy
       </div>
-      <div class="hero-photo">
-        <img src="/images/hero-cysterna.jpg" alt="Serwis cystern kriogenicznych LNG Best Partner" />
-        <div class="hero-badge">
-          <span class="badge-dot"></span>
-          <div>
-            <div class="badge-title">Warsztat dostępny</div>
-            <div class="badge-sub">Karlino, woj. zachodniopomorskie</div>
-          </div>
+      <h1>Specjalistyczny<br>serwis cystern<br><em>kriogenicznych</em></h1>
+      <p>Ponad dekada precyzji technicznej. Laserowa detekcja metanu, helowa identyfikacja nieszczelności, termowizja — technologie, których nie znajdziesz w żadnym innym warsztacie kriogenicznym w Polsce.</p>
+      <div class="hero-btns">
+        <a href="#uslugi" class="btn-dark">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Poznaj usługi
+        </a>
+        <a href="tel:795196740" class="btn-blue">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z" fill="#fff"/></svg>
+          795 196 740
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="hs"><span class="hs-n">10+</span><span class="hs-l">Lat doświadczenia</span></div>
+        <div class="hs"><span class="hs-n">A–Z</span><span class="hs-l">Pełen zakres</span></div>
+        <div class="hs"><span class="hs-n">PL/EU</span><span class="hs-l">Zasięg mobilny</span></div>
+      </div>
+    </div>
+
+    <!-- Zdjęcie wchodzi ukośnie z prawego dolnego rogu -->
+    <div class="hero-r">
+      <div class="hero-img">
+        <img src="/images/hero-cysterna.jpg" alt="Serwis cystern kriogenicznych LNG Best Partner Karlino" />
+      </div>
+      <div class="hero-fade"></div>
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <div>
+          <div class="badge-t">Warsztat dostępny</div>
+          <div class="badge-s">Karlino, woj. zachodniopomorskie</div>
         </div>
       </div>
     </div>
@@ -51,519 +54,478 @@ const posts = postFiles
 
   <!-- STRIP -->
   <div class="strip">
-    <div class="strip-item"><span class="sdot"></span>Laserowa detekcja metanu — pierwsi w Polsce</div>
-    <div class="strip-item"><span class="sdot"></span>Odbudowa izolacji próżniowej</div>
-    <div class="strip-item"><span class="sdot"></span>Helowa detekcja nieszczelności</div>
-    <div class="strip-item"><span class="sdot"></span>ADR klasa 2</div>
-    <div class="strip-item"><span class="sdot"></span>Serwis mobilny EU</div>
+    <div class="si"><span class="sd"></span>Laserowa detekcja metanu — pierwsi w Polsce</div>
+    <div class="si"><span class="sd"></span>Odbudowa izolacji próżniowej</div>
+    <div class="si"><span class="sd"></span>Helowa detekcja nieszczelności</div>
+    <div class="si"><span class="sd"></span>ADR klasa 2 / UDT</div>
+    <div class="si"><span class="sd"></span>Serwis mobilny PL/EU</div>
   </div>
 
-  <!-- FILARY -->
-  <section class="section bg-gray" id="uslugi">
-    <div class="container">
-      <div class="section-header">
-        <div class="eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text">Czym się wyróżniamy</span></div>
-        <h2>Standardy, które definiują branżę</h2>
-        <p>Łączymy wieloletnie doświadczenie z technologiami diagnostycznymi niedostępnymi w żadnym innym warsztacie kriogenicznym w Polsce.</p>
-      </div>
-      <div class="grid-3">
-        <div class="card card--top">
-          <div class="card-num">01</div>
-          <h3>Pełna obsługa — od diagnostyki po regenerację próżni</h3>
-          <p>Od drobnych interwencji serwisowych po kompleksową odbudowę izolacji próżniowej — serca każdej cysterny kriogenicznej. Jeden serwis, pełna odpowiedzialność techniczna.</p>
+  <!-- ═══ USŁUGI ═══ -->
+  <section class="section bg-dark" id="uslugi">
+    <div class="sh">
+      <span class="stag stag-light">Zakres usług</span>
+      <h2>Co robimy lepiej niż ktokolwiek inny</h2>
+      <p>Specjalizujemy się tam gdzie inni nie docierają — od drobnych interwencji po pełną odbudowę izolacji próżniowej.</p>
+    </div>
+    <div class="ug">
+      <div class="uc"><div class="uc-n">01</div><div class="uc-bar"></div><h3>Odbudowa izolacji próżniowej</h3><p>Serce każdej cysterny kriogenicznej. Kompleksowa regeneracja naczep i zbiorników stacjonarnych LNG. Parametry fabryczne przywrócone.</p></div>
+      <div class="uc"><div class="uc-n">02</div><div class="uc-bar"></div><h3>Helowa detekcja nieszczelności</h3><p>Precyzyjna identyfikacja przecieków w układach próżniowych — niemożliwa metodami konwencjonalnymi. Diagnostyka na poziomie fabrycznym.</p></div>
+      <div class="uc"><div class="uc-n">03</div><div class="uc-bar"></div><h3>Laserowa detekcja metanu</h3><p>Pierwsi w Polsce w środowisku warsztatowym. Monitoring atmosfery w czasie rzeczywistym — mienie i personel pod stałą kontrolą.</p></div>
+      <div class="uc"><div class="uc-n">04</div><div class="uc-bar"></div><h3>Pomiary termowizyjne</h3><p>Ocena stanu izolacji i układów elektrycznych bez demontażu. Szybka diagnostyka — niższy koszt, precyzyjny wynik.</p></div>
+      <div class="uc"><div class="uc-n">05</div><div class="uc-bar"></div><h3>Badania ADR klasa 2 / UDT</h3><p>Kompleksowe przygotowanie cystern do badań technicznych. Pełna dokumentacja zgodna z przepisami ADR i Transportowego Dozoru Technicznego.</p></div>
+      <div class="uc"><div class="uc-n">06</div><div class="uc-bar"></div><h3>Serwis ciągników siodłowych</h3><p>Scania, Volvo, Renault — to nasz konik. Obsługujemy każdą markę. Umowy serwisowe dla flot z priorytetowym czasem reakcji.</p></div>
+    </div>
+  </section>
+
+  <!-- ═══ TECHNOLOGIA — zdjęcie ukośnie z lewego dolnego rogu ═══ -->
+  <section class="split-tech bg-white" id="technologia">
+    <div class="tech-img">
+      <img src="/images/tech-pompa.jpg" alt="Pompa próżniowa serwis kriogeniczny" />
+    </div>
+    <div class="tech-fade"></div>
+    <div class="tech-content">
+      <span class="stag">Technologia i diagnostyka</span>
+      <h2>Sprzęt, którego nie ma nikt inny w Polsce</h2>
+      <p>Inwestujemy w technologie klasy przemysłowej. Każde zlecenie realizujemy z precyzją niedostępną w standardowym warsztacie.</p>
+      <div class="tis">
+        <div class="ti">
+          <div class="ti-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2v-4M9 21H5a2 2 0 0 1-2-2v-4m0 0h18" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <div><div class="ti-t">Laserowy detektor metanu — pierwsi w Polsce</div><div class="ti-d">Monitoring ciągły — bezpieczeństwo w czasie rzeczywistym.</div></div>
         </div>
-        <div class="card card--top">
-          <div class="card-num">02</div>
-          <h3>Technologie diagnostyczne niedostępne w regionie</h3>
-          <p>Laserowy detektor metanu, helowa identyfikacja nieszczelności, kamera termowizyjna i nowoczesna stacja próżniowa — precyzja diagnostyki na poziomie zakładu produkcyjnego.</p>
+        <div class="ti">
+          <div class="ti-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="#00A0E3" stroke-width="1.5"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <div><div class="ti-t">Helowa detekcja nieszczelności</div><div class="ti-d">Identyfikacja przecieków niedostępna metodami konwencjonalnymi.</div></div>
         </div>
-        <div class="card card--top">
-          <div class="card-num">03</div>
-          <h3>Bezpieczeństwo powierzonego mienia i personelu</h3>
-          <p>Jako pierwsi w Polsce wdrożyliśmy laserową detekcję metanu w środowisku warsztatowym. Praca przy mediach kriogenicznych wymaga najwyższych standardów.</p>
+        <div class="ti">
+          <div class="ti-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M2 12h1M21 12h1M12 2v1M12 21v1M4.93 4.93l.7.7M18.37 18.37l.7.7M4.93 19.07l.7-.7M18.37 5.63l.7-.7" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="12" r="4" stroke="#00A0E3" stroke-width="1.5"/></svg></div>
+          <div><div class="ti-t">Kamera termowizyjna</div><div class="ti-d">Ocena izolacji bez demontażu — szybka, precyzyjna, tania.</div></div>
+        </div>
+        <div class="ti">
+          <div class="ti-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="12" rx="10" ry="10" stroke="#00A0E3" stroke-width="1.5"/><path d="M12 8v4l3 3" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <div><div class="ti-t">Pompa próżniowa</div><div class="ti-d">Regeneracja naczep i zbiorników stacjonarnych do parametrów fabrycznych.</div></div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- TECHNOLOGIA -->
-  <section class="section bg-white" id="technologia">
-    <div class="container">
-      <div class="split">
-        <div class="split-photo">
-          <img src="/images/tech-sprzet.jpg" alt="Nowoczesny sprzęt diagnostyczny" />
-        </div>
-        <div class="split-text">
-          <div class="eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text">Technologia i diagnostyka</span></div>
-          <h2>Sprzęt, który zmienia jakość diagnozy</h2>
-          <p>Każde zlecenie realizujemy z użyciem precyzyjnych narzędzi diagnostycznych, które pozwalają identyfikować problemy zanim staną się kosztownymi awariami.</p>
-          <div class="tech-list">
-            <div class="tech-item">
-              <div class="ti-icon">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2v-4M9 21H5a2 2 0 0 1-2-2v-4m0 0h18" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg>
-              </div>
-              <div>
-                <div class="ti-title">Laserowa detekcja metanu</div>
-                <div class="ti-desc">Pierwsi w Polsce w środowisku warsztatowym. Ciągły monitoring w czasie rzeczywistym.</div>
-              </div>
-            </div>
-            <div class="tech-item">
-              <div class="ti-icon">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="#00A0E3" stroke-width="1.5"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg>
-              </div>
-              <div>
-                <div class="ti-title">Helowa detekcja nieszczelności</div>
-                <div class="ti-desc">Precyzyjna identyfikacja przecieków w układach próżniowych.</div>
-              </div>
-            </div>
-            <div class="tech-item">
-              <div class="ti-icon">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M2 12h1M21 12h1M12 2v1M12 21v1M4.93 4.93l.7.7M18.37 18.37l.7.7M4.93 19.07l.7-.7M18.37 5.63l.7-.7" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="12" r="4" stroke="#00A0E3" stroke-width="1.5"/></svg>
-              </div>
-              <div>
-                <div class="ti-title">Pomiary termowizyjne</div>
-                <div class="ti-desc">Ocena stanu izolacji bez demontażu. Szybka diagnostyka, precyzyjny wynik.</div>
-              </div>
-            </div>
-            <div class="tech-item">
-              <div class="ti-icon">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="12" rx="10" ry="10" stroke="#00A0E3" stroke-width="1.5"/><path d="M12 8v4l3 3" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg>
-              </div>
-              <div>
-                <div class="ti-title">Stacja odbudowy izolacji próżniowej</div>
-                <div class="ti-desc">Nowoczesna stacja do pełnej regeneracji naczep i zbiorników stacjonarnych.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- BEZPIECZENSTWO -->
-  <section class="section bg-dark">
-    <div class="container">
-      <div class="safety-grid">
-        <div class="safety-text">
-          <div class="eyebrow eyebrow--light"><div class="eyebrow-line"></div><span class="eyebrow-text">Bezpieczeństwo</span></div>
-          <h2>Pierwsi w Polsce z laserową detekcją metanu w warsztacie</h2>
-          <p>W środowisku kriogenicznym nie ma miejsca na kompromisy. Wdrożyliśmy standardy ochrony, które stawiają nas w awangardzie branży.</p>
-          <div class="safety-claim">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#00A0E3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Pierwszy warsztat kriogeniczny w Polsce z laserową detekcją metanu
-          </div>
-        </div>
-        <div class="safety-cards">
-          <div class="scard">
-            <div class="scard-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="#00A0E3" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
-            <div class="scard-title">Laserowy detektor metanu</div>
-            <p class="scard-desc">Monitoring atmosfery w czasie rzeczywistym.</p>
-          </div>
-          <div class="scard">
-            <div class="scard-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="11" width="18" height="11" rx="2" stroke="#00A0E3" stroke-width="1.5"/><path d="M7 11V7a5 5 0 0 1 10 0v4" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-            <div class="scard-title">Ochrona mienia</div>
-            <p class="scard-desc">Twoja cysterna pod pełną kontrolą środowiska pracy.</p>
-          </div>
-          <div class="scard">
-            <div class="scard-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/><circle cx="9" cy="7" r="4" stroke="#00A0E3" stroke-width="1.5"/></svg></div>
-            <div class="scard-title">Bezpieczeństwo personelu</div>
-            <p class="scard-desc">Certyfikowane procedury i sprzęt klasy przemysłowej.</p>
-          </div>
-          <div class="scard">
-            <div class="scard-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 11l3 3L22 4" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-            <div class="scard-title">Uprawnienia ADR klasa 2</div>
-            <p class="scard-desc">Przygotowanie do badań UDT. Prace zgodne z przepisami ADR.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- POJAZDY -->
+  <!-- ═══ BEZPIECZEŃSTWO ═══ -->
   <section class="section bg-gray">
-    <div class="container">
-      <div class="split split--rev">
-        <div class="split-text">
-          <div class="eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text">Serwis pojazdów ciężarowych</span></div>
-          <h2>Ciągniki siodłowe — nasza druga specjalność</h2>
-          <p>Równolegle z serwisem kriogenicznym prowadzimy pełnozakresową obsługę techniczną pojazdów ciężarowych. Specjalizujemy się w markach skandynawskich, jednak żaden pojazd nie jest nam obcy.</p>
-          <div class="brands">
-            <span class="brand brand--main">Scania</span>
-            <span class="brand brand--main">Volvo</span>
-            <span class="brand brand--main">Renault</span>
-            <span class="brand">MAN</span>
-            <span class="brand">DAF</span>
-            <span class="brand">Mercedes</span>
-            <span class="brand">+ inne marki</span>
+    <div class="safety-inner">
+      <div class="safety-text">
+        <span class="stag">Bezpieczeństwo</span>
+        <h2>Pierwsi w Polsce z laserową detekcją metanu</h2>
+        <p>W środowisku kriogenicznym nie ma miejsca na kompromisy. Standardy ochrony na poziomie przemysłowym — dla Twojego mienia i naszego personelu.</p>
+        <div class="sclaim">
+          <div class="sc-ck">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
-          <p class="note">Obsługujemy zarówno jednostkowe zlecenia jak i całe floty. Umowy serwisowe z priorytetowym czasem reakcji.</p>
+          Pierwsi w Polsce — laserowa detekcja metanu
         </div>
-        <div class="split-photo">
-          <img src="/images/vehicles-serwis.jpg" alt="Serwis ciągników siodłowych" />
+      </div>
+      <div class="scards">
+        <div class="scard">
+          <div class="scard-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="#00A0E3" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
+          <div class="scard-t">Laserowy detektor metanu</div>
+          <p class="scard-d">Monitoring atmosfery — wykrycie zagrożenia zanim wystąpi.</p>
+        </div>
+        <div class="scard">
+          <div class="scard-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="11" width="18" height="11" rx="2" stroke="#00A0E3" stroke-width="1.5"/><path d="M7 11V7a5 5 0 0 1 10 0v4" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <div class="scard-t">Ochrona mienia klienta</div>
+          <p class="scard-d">Twoja cysterna w pełni kontrolowanym środowisku.</p>
+        </div>
+        <div class="scard">
+          <div class="scard-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/><circle cx="9" cy="7" r="4" stroke="#00A0E3" stroke-width="1.5"/></svg></div>
+          <div class="scard-t">Bezpieczeństwo personelu</div>
+          <p class="scard-d">Certyfikowane procedury i sprzęt klasy przemysłowej.</p>
+        </div>
+        <div class="scard">
+          <div class="scard-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 11l3 3L22 4" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <div class="scard-t">Uprawnienia ADR klasa 2</div>
+          <p class="scard-d">Prace zgodne z przepisami transportu materiałów niebezpiecznych.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- AKTUALNOSCI -->
+  <!-- ═══ POJAZDY — zdjęcie ukośnie z prawego dolnego rogu ═══ -->
+  <section class="split-vehicles bg-white">
+    <div class="vehicles-img">
+      <img src="/images/vehicles-serwis.jpg" alt="Serwis ciągników siodłowych Scania Volvo Renault Karlino" />
+    </div>
+    <div class="vehicles-fade"></div>
+    <div class="vehicles-content">
+      <span class="stag">Serwis pojazdów ciężarowych</span>
+      <h2>Ciągniki siodłowe — nasza druga specjalność</h2>
+      <p>Pełnozakresowa obsługa techniczna pojazdów ciężarowych. Specjalizujemy się w markach skandynawskich — ale serwisujemy każdą markę bez wyjątku.</p>
+      <div class="brands">
+        <span class="bm">Scania</span><span class="bm">Volvo</span><span class="bm">Renault</span>
+        <span class="bs">MAN</span><span class="bs">DAF</span><span class="bs">Mercedes</span><span class="bs">+ inne</span>
+      </div>
+      <p class="vnote">Umowy serwisowe dla flot · Priorytetowy czas reakcji · Dedykowany kontakt techniczny</p>
+    </div>
+  </section>
+
+  <!-- ═══ GALERIA ═══ -->
+  <section class="section bg-gray" id="galeria">
+    <span class="stag">Galeria</span>
+    <h2 class="gal-title">Nasze realizacje</h2>
+    <p class="gal-sub">Zdjęcia z warsztatu i realizacji</p>
+    <div class="gg">
+      <div class="gi big">
+        <img src="/images/galeria-1.jpg" alt="Realizacja serwis kriogeniczny" />
+      </div>
+      <div class="gi"><img src="/images/galeria-2.jpg" alt="Warsztat LNG Best Partner" /></div>
+      <div class="gi"><img src="/images/galeria-3.jpg" alt="Serwis cystern" /></div>
+      <div class="gi"><img src="/images/galeria-4.jpg" alt="Pompa próżniowa" /></div>
+      <div class="gi"><img src="/images/galeria-5.jpg" alt="Serwis pojazdów" /></div>
+    </div>
+  </section>
+
+  <!-- ═══ AKTUALNOŚCI ═══ -->
   <section class="section bg-white">
-    <div class="container">
-      <div class="news-header">
-        <div>
-          <div class="eyebrow"><div class="eyebrow-line"></div><span class="eyebrow-text">Aktualności</span></div>
-          <h2>Z życia warsztatu</h2>
-        </div>
-        <a href="/aktualnosci" class="news-more">Wszystkie wpisy →</a>
+    <div class="news-hdr">
+      <div>
+        <span class="stag">Aktualności</span>
+        <h2 class="news-title">Z życia warsztatu</h2>
       </div>
-      <div class="news-grid">
-        {posts.map((post, i) => (
-          <a href={post.url} class={`ncard ${i === 0 ? 'ncard--featured' : ''}`}>
-            <div class="ncard-img">
-              {post.frontmatter.image
-                ? <img src={post.frontmatter.image} alt={post.frontmatter.title} loading="lazy" />
-                : <div class="ncard-placeholder"></div>
-              }
-              <span class="ntag">{post.frontmatter.tag ?? 'Aktualność'}</span>
-            </div>
-            <div class="ncard-body">
-              <div class="ndate">{new Date(post.frontmatter.date).toLocaleDateString('pl-PL', { year:'numeric', month:'long' })}</div>
-              <h4>{post.frontmatter.title}</h4>
-              <p>{post.frontmatter.excerpt}</p>
-            </div>
-          </a>
-        ))}
-        {posts.length === 0 && <p class="empty">Pierwsze wpisy pojawią się wkrótce.</p>}
-      </div>
+      <a href="/aktualnosci" class="news-more">
+        Wszystkie wpisy
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="#00A0E3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+    <div class="ng">
+      {posts.map((post, i) => (
+        <a href={post.url} class={`nc ${i === 0 ? 'big' : ''}`}>
+          <div class="nc-img">
+            {post.frontmatter.image
+              ? <img src={post.frontmatter.image} alt={post.frontmatter.title} loading="lazy" />
+              : <div class="nc-ph"></div>
+            }
+            <span class="nc-tag">{post.frontmatter.tag ?? 'Aktualność'}</span>
+          </div>
+          <div class="nc-body">
+            <div class="nc-date">{new Date(post.frontmatter.date).toLocaleDateString('pl-PL', { year:'numeric', month:'long' })}</div>
+            <h4>{post.frontmatter.title}</h4>
+            <p>{post.frontmatter.excerpt}</p>
+          </div>
+        </a>
+      ))}
+      {posts.length === 0 && (
+        <p class="empty">Pierwsze wpisy pojawią się wkrótce.</p>
+      )}
     </div>
   </section>
 
-  <!-- KONTAKT -->
-  <section class="section bg-split" id="kontakt">
-    <div class="container">
-      <div class="contact-grid">
-        <div class="contact-info">
-          <div class="eyebrow eyebrow--light"><div class="eyebrow-line"></div><span class="eyebrow-text">Kontakt</span></div>
-          <h2>Porozmawiajmy o Twojej cysternie lub flocie</h2>
-          <p>Wycena, umowa serwisowa lub pilna awaria — odpowiadamy szybko i konkretnie.</p>
-          <div class="cd">
-            <div class="cd-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z" fill="#00A0E3"/></svg></div>
-            <div><div class="cd-lbl">Telefon serwisowy</div><a href="tel:795196740" class="cd-val">795 196 740</a></div>
-          </div>
-          <div class="cd">
-            <div class="cd-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="#00A0E3" stroke-width="1.5"/><polyline points="22,6 12,13 2,6" stroke="#00A0E3" stroke-width="1.5"/></svg></div>
-            <div><div class="cd-lbl">E-mail</div><a href="mailto:biuro@lngbestpartner.pl" class="cd-val">biuro@lngbestpartner.pl</a></div>
-          </div>
-          <div class="cd">
-            <div class="cd-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="#00A0E3" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="#00A0E3" stroke-width="1.5"/></svg></div>
-            <div><div class="cd-lbl">Warsztat</div><div class="cd-val">Krzywopłoty 2A, 78-230 Karlino</div></div>
-          </div>
-          <div class="cd">
-            <div class="cd-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><rect x="2" y="7" width="20" height="14" rx="2" stroke="#00A0E3" stroke-width="1.5"/><path d="M16 7V5a2 2 0 0 0-4 0v2" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-            <div><div class="cd-lbl">NIP</div><div class="cd-val">6722081703</div></div>
-          </div>
+  <!-- ═══ KONTAKT ═══ -->
+  <section class="section bg-dark" id="kontakt">
+    <div class="contact-inner">
+      <div class="ci">
+        <span class="stag stag-light">Kontakt</span>
+        <h2>Porozmawiajmy o Twojej cysternie</h2>
+        <p>Wycena, umowa serwisowa lub pilna awaria — odpowiadamy szybko i konkretnie.</p>
+        <div class="cd">
+          <div class="cd-ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z" fill="#00A0E3"/></svg></div>
+          <div><div class="cd-l">Telefon serwisowy</div><a href="tel:795196740" class="cd-v">795 196 740</a></div>
         </div>
-        <div class="contact-form">
-          <h3>Wyślij zapytanie</h3>
-          <form name="kontakt" method="POST" data-netlify="true">
-            <input type="hidden" name="form-name" value="kontakt" />
-            <input type="text" name="firma" placeholder="Imię i nazwisko / nazwa firmy" required />
-            <input type="text" name="kontakt" placeholder="Telefon lub e-mail" required />
-            <select name="temat">
-              <option value="">Czego dotyczy zapytanie?</option>
-              <option>Izolacja próżniowa</option>
-              <option>Helowa detekcja nieszczelności</option>
-              <option>Pomiary termowizyjne</option>
-              <option>Badania ADR / UDT</option>
-              <option>Serwis ciągnika siodłowego</option>
-              <option>Umowa serwisowa dla floty</option>
-              <option>Serwis awaryjny</option>
-              <option>Inne</option>
-            </select>
-            <textarea name="wiadomosc" placeholder="Opisz problem lub zapytanie..."></textarea>
-            <button type="submit" class="btn-blue" style="width:100%;justify-content:center">Wyślij zapytanie →</button>
-          </form>
+        <div class="cd">
+          <div class="cd-ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="#00A0E3" stroke-width="1.5"/><polyline points="22,6 12,13 2,6" stroke="#00A0E3" stroke-width="1.5"/></svg></div>
+          <div><div class="cd-l">E-mail</div><a href="mailto:biuro@lngbestpartner.pl" class="cd-v">biuro@lngbestpartner.pl</a></div>
         </div>
+        <div class="cd">
+          <div class="cd-ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="#00A0E3" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="#00A0E3" stroke-width="1.5"/></svg></div>
+          <div><div class="cd-l">Warsztat</div><div class="cd-v">Krzywopłoty 2A, 78-230 Karlino</div></div>
+        </div>
+        <div class="cd">
+          <div class="cd-ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><rect x="2" y="7" width="20" height="14" rx="2" stroke="#00A0E3" stroke-width="1.5"/><path d="M16 7V5a2 2 0 0 0-4 0v2" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <div><div class="cd-l">NIP</div><div class="cd-v">6722081703</div></div>
+        </div>
+      </div>
+      <div class="cf">
+        <h3>Wyślij zapytanie</h3>
+        <form name="kontakt" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="kontakt" />
+          <input type="text" name="firma" placeholder="Imię i nazwisko / nazwa firmy" required />
+          <input type="text" name="kontakt" placeholder="Telefon lub e-mail" required />
+          <select name="temat">
+            <option value="">Czego dotyczy zapytanie?</option>
+            <option>Izolacja próżniowa</option>
+            <option>Helowa detekcja nieszczelności</option>
+            <option>Pomiary termowizyjne</option>
+            <option>Pompa próżniowa</option>
+            <option>Badania ADR / UDT</option>
+            <option>Serwis ciągnika siodłowego</option>
+            <option>Umowa serwisowa dla floty</option>
+            <option>Serwis awaryjny</option>
+            <option>Inne</option>
+          </select>
+          <textarea name="wiadomosc" placeholder="Opisz problem lub zapytanie..."></textarea>
+          <button type="submit" class="btn-blue" style="width:100%;justify-content:center;padding:14px">Wyślij zapytanie →</button>
+        </form>
       </div>
     </div>
   </section>
 
   <!-- FOOTER -->
   <footer class="footer">
-    <div class="container footer-inner">
-      <div class="footer-copy">© 2025 LNG Best Partner Sp. z o.o. · NIP 6722081703 · Krzywopłoty 2A, 78-230 Karlino</div>
-      <div class="footer-links">
-        <a href="/polityka-prywatnosci">Polityka prywatności</a>
-        <a href="#uslugi">Usługi</a>
-        <a href="https://transport-lng.pl" target="_blank" rel="noopener" class="footer-transport">↗ transport-lng.pl</a>
-      </div>
+    <div class="fc">© 2025 LNG Best Partner Sp. z o.o. · NIP 6722081703 · Krzywopłoty 2A, 78-230 Karlino</div>
+    <div class="fl">
+      <a href="/polityka-prywatnosci">Polityka prywatności</a>
+      <a href="/#uslugi">Usługi</a>
+      <a href="https://transport-lng.pl" target="_blank" rel="noopener" class="fl-tr">↗ transport-lng.pl</a>
     </div>
   </footer>
 </Base>
 
 <style>
-/* ── RESET & BASE ── */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 48px;
-}
-
-/* ── SECTIONS ── */
-.section { padding: 80px 0; }
-.bg-white { background: #fff; }
-.bg-gray  { background: #f7f9fc; }
-.bg-dark  { background: #0f0f1a; }
-.bg-split { background: #0f0f1a; }
-
-.section-header { margin-bottom: 48px; }
-.section-header h2 { font-size: 28px; font-weight: 700; color: #0f0f1a; margin-bottom: 10px; letter-spacing: -.02em; }
-.section-header p  { font-size: 14px; color: #5a6a7a; line-height: 1.75; max-width: 560px; }
-
-/* ── EYEBROW ── */
-.eyebrow { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
-.eyebrow-line { width: 28px; height: 2px; background: #00A0E3; flex-shrink: 0; }
-.eyebrow-text { font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: #00A0E3; }
-.eyebrow--light .eyebrow-line { background: rgba(255,255,255,.35); }
-.eyebrow--light .eyebrow-text { color: rgba(255,255,255,.45); }
-
-/* ── BUTTONS ── */
-.btn-dark { display: inline-flex; align-items: center; gap: 8px; padding: 14px 26px; border-radius: 8px; font-size: 14px; font-weight: 600; background: #0f0f1a; color: #fff; border: none; cursor: pointer; text-decoration: none; transition: opacity .2s; }
-.btn-blue { display: inline-flex; align-items: center; gap: 8px; padding: 14px 26px; border-radius: 8px; font-size: 14px; font-weight: 600; background: #00A0E3; color: #fff; border: none; cursor: pointer; text-decoration: none; transition: opacity .2s; }
-.btn-dark:hover, .btn-blue:hover { opacity: .85; }
-
 /* ── HERO ── */
-.hero { background: #fff; padding: 0; }
-.hero-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 48px;
+.hero {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 48px;
-  align-items: center;
-  min-height: 600px;
-}
-.hero-text { padding: 80px 0; }
-.hero-text h1 {
-  font-size: clamp(32px, 3.5vw, 52px);
-  font-weight: 800;
-  line-height: 1.1;
-  color: #0f0f1a;
-  margin-bottom: 20px;
-  letter-spacing: -.025em;
-}
-.hero-text h1 em { font-style: normal; color: #00A0E3; }
-.hero-text p { font-size: 15px; color: #5a6a7a; line-height: 1.8; margin-bottom: 32px; max-width: 440px; }
-.hero-btns { display: flex; gap: 12px; margin-bottom: 48px; flex-wrap: wrap; }
-.hero-stats { display: flex; gap: 32px; padding-top: 28px; border-top: 1px solid #e8eef4; }
-.stat { display: flex; flex-direction: column; }
-.stat-n { font-size: 24px; font-weight: 700; color: #0f0f1a; }
-.stat-l { font-size: 11px; color: #9aaab8; margin-top: 2px; }
-
-.hero-photo {
+  grid-template-columns: 55% 45%;
+  min-height: 580px;
   position: relative;
-  height: 520px;
-  border-radius: 16px;
   overflow: hidden;
-  background: #c0d0e0;
+  background: #fff;
 }
-.hero-photo img { width: 100%; height: 100%; object-fit: cover; }
+.hero-l {
+  padding: 72px 5% 72px 6%;
+  display: flex; flex-direction: column; justify-content: center;
+  position: relative; z-index: 2;
+}
+.hero-tag {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: #f0f8ff; border: 1px solid rgba(0,160,227,.18);
+  color: #00A0E3; font-size: 11px; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase;
+  padding: 6px 14px; border-radius: 30px;
+  margin-bottom: 28px; width: fit-content;
+}
+.hero-tag-dot { width: 6px; height: 6px; border-radius: 50%; background: #00A0E3; flex-shrink: 0; }
+.hero-l h1 {
+  font-size: clamp(30px, 3.2vw, 52px);
+  font-weight: 900; line-height: 1.05;
+  color: #0a0a14; margin-bottom: 20px; letter-spacing: -.03em;
+}
+.hero-l h1 em { font-style: normal; color: #00A0E3; }
+.hero-l p {
+  font-size: 15px; color: #6a7a8a; line-height: 1.8;
+  margin-bottom: 32px; max-width: 460px;
+}
+.hero-btns { display: flex; gap: 12px; margin-bottom: 44px; flex-wrap: wrap; }
+.hero-stats { display: flex; gap: 36px; padding-top: 28px; border-top: 1px solid #f0f4f8; }
+.hs { display: flex; flex-direction: column; }
+.hs-n { font-size: 26px; font-weight: 900; color: #0a0a14; letter-spacing: -.02em; }
+.hs-l { font-size: 10px; color: #aab4be; margin-top: 3px; font-weight: 600; letter-spacing: .07em; text-transform: uppercase; }
+
+/* Zdjęcie hero — clip-path ukośny z prawego dolnego rogu */
+.hero-r { position: relative; overflow: hidden; }
+.hero-img {
+  position: absolute; right: -8%; bottom: -5%; width: 115%; height: 110%;
+  clip-path: polygon(18% 0%, 100% 0%, 100% 100%, 0% 100%);
+  background: #1a2a3a; overflow: hidden;
+}
+.hero-img img { width: 100%; height: 100%; object-fit: cover; }
+.hero-fade {
+  position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(to right, #fff 0%, rgba(255,255,255,.6) 16%, transparent 42%);
+}
 .hero-badge {
-  position: absolute; bottom: 20px; left: 20px;
-  background: #fff; border-radius: 10px; padding: 12px 16px;
-  box-shadow: 0 4px 20px rgba(0,0,0,.12);
+  position: absolute; bottom: 28px; left: 24px; z-index: 5;
+  background: rgba(255,255,255,.96); backdrop-filter: blur(8px);
+  border-radius: 10px; padding: 12px 18px;
   display: flex; align-items: center; gap: 10px;
+  box-shadow: 0 2px 20px rgba(0,0,0,.1);
 }
 .badge-dot { width: 8px; height: 8px; border-radius: 50%; background: #22c55e; flex-shrink: 0; }
-.badge-title { font-size: 12px; font-weight: 600; color: #0f0f1a; }
-.badge-sub { font-size: 11px; color: #aaa; }
+.badge-t { font-size: 12px; font-weight: 700; color: #0a0a14; }
+.badge-s { font-size: 11px; color: #aaa; }
 
 /* ── STRIP ── */
 .strip {
-  background: #0f0f1a;
-  padding: 16px 48px;
-  display: flex; gap: 24px; justify-content: center; flex-wrap: wrap;
+  background: #00A0E3; padding: 15px 6%;
+  display: flex; gap: 0; overflow-x: auto;
 }
-.strip-item { display: flex; align-items: center; gap: 8px; font-size: 12px; color: rgba(255,255,255,.6); }
-.sdot { display: inline-block; width: 4px; height: 4px; border-radius: 50%; background: #00A0E3; flex-shrink: 0; }
+.si {
+  display: flex; align-items: center; gap: 9px;
+  font-size: 11px; font-weight: 700; color: #fff;
+  letter-spacing: .07em; text-transform: uppercase;
+  padding: 0 32px; border-right: 1px solid rgba(255,255,255,.22);
+  white-space: nowrap; flex-shrink: 0;
+}
+.si:first-child { padding-left: 0; }
+.si:last-child { border-right: none; }
+.sd { display: inline-block; width: 4px; height: 4px; border-radius: 50%; background: rgba(255,255,255,.5); flex-shrink: 0; }
 
-/* ── GRID ── */
-.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+/* ── USŁUGI ── */
+.sh { margin-bottom: 48px; }
+.sh h2 { font-size: clamp(24px, 2.6vw, 40px); font-weight: 900; color: #fff; letter-spacing: -.025em; line-height: 1.12; margin-bottom: 12px; }
+.sh p { font-size: 14px; color: rgba(255,255,255,.4); max-width: 540px; line-height: 1.8; }
+.ug { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: rgba(255,255,255,.06); }
+.uc { background: #0a0a14; padding: 36px 30px; transition: background .15s; }
+.uc:hover { background: #0f1828; }
+.uc-n { font-size: 10px; font-weight: 700; color: rgba(0,160,227,.35); letter-spacing: .1em; margin-bottom: 14px; }
+.uc-bar { width: 30px; height: 2px; background: #00A0E3; margin-bottom: 20px; }
+.uc h3 { font-size: 16px; font-weight: 700; color: #fff; margin-bottom: 10px; line-height: 1.3; }
+.uc p { font-size: 13px; color: rgba(255,255,255,.38); line-height: 1.72; }
 
-.card {
-  background: #fff; border: 1px solid #e8eef4; border-radius: 14px; padding: 32px 26px;
+/* ── TECH split — zdjęcie ukośnie z lewego dolnego rogu ── */
+.split-tech {
   position: relative; overflow: hidden;
+  min-height: 540px; display: flex; align-items: center;
 }
-.card--top::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: #00A0E3; }
-.card-num { font-size: 11px; font-weight: 700; color: #00A0E3; letter-spacing: .1em; margin-bottom: 14px; }
-.card h3 { font-size: 15px; font-weight: 700; color: #0f0f1a; margin-bottom: 10px; line-height: 1.35; }
-.card p { font-size: 13px; color: #7a8a9a; line-height: 1.7; }
-
-/* ── SPLIT ── */
-.split {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 64px;
-  align-items: center;
+.tech-img {
+  position: absolute; left: -5%; top: -5%; bottom: -5%; width: 52%;
+  clip-path: polygon(0% 0%, 82% 0%, 100% 100%, 0% 100%);
+  background: #1a2a3a; overflow: hidden;
 }
-.split--rev { direction: rtl; }
-.split--rev > * { direction: ltr; }
-.split-photo { border-radius: 16px; overflow: hidden; background: #c0d0e0; aspect-ratio: 4/3; }
-.split-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.split-text h2 { font-size: 26px; font-weight: 700; color: #0f0f1a; margin-bottom: 12px; letter-spacing: -.02em; line-height: 1.25; }
-.split-text p { font-size: 14px; color: #5a6a7a; line-height: 1.75; margin-bottom: 24px; }
-.note { font-size: 13px; color: #9aaab8; line-height: 1.7; }
-
-/* ── TECH ── */
-.tech-list { display: flex; flex-direction: column; gap: 12px; }
-.tech-item {
-  display: flex; align-items: flex-start; gap: 14px;
-  padding: 14px 16px; background: #f7f9fc; border-radius: 10px; border-left: 3px solid #00A0E3;
+.tech-img img { width: 100%; height: 100%; object-fit: cover; }
+.tech-fade {
+  position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(to left, #fff 0%, rgba(255,255,255,.4) 22%, transparent 58%);
 }
-.ti-icon {
-  width: 32px; height: 32px; flex-shrink: 0;
-  display: flex; align-items: center; justify-content: center;
-  background: rgba(0,160,227,.08); border-radius: 7px;
+.tech-content {
+  position: relative; z-index: 2;
+  margin-left: 50%; padding: 72px 6% 72px 4%;
 }
-.ti-title { font-size: 13px; font-weight: 700; color: #0f0f1a; margin-bottom: 3px; }
-.ti-desc { font-size: 12px; color: #8a9bac; line-height: 1.5; }
+.tech-content h2 { font-size: clamp(22px, 2.4vw, 36px); font-weight: 900; color: #0a0a14; letter-spacing: -.025em; line-height: 1.15; margin-bottom: 12px; }
+.tech-content > p { font-size: 14px; color: #6a7a8a; line-height: 1.8; margin-bottom: 0; }
+.tis { display: flex; flex-direction: column; gap: 0; margin-top: 24px; }
+.ti { display: flex; align-items: flex-start; gap: 14px; padding: 16px 0; border-bottom: 1px solid #f0f4f8; }
+.ti:last-child { border-bottom: none; }
+.ti-ic { width: 34px; height: 34px; border-radius: 8px; background: #f0f8ff; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.ti-t { font-size: 13px; font-weight: 700; color: #0a0a14; margin-bottom: 2px; }
+.ti-d { font-size: 12px; color: #9aaab8; line-height: 1.5; }
 
 /* ── SAFETY ── */
-.safety-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
-.safety-text h2 { font-size: 26px; font-weight: 700; color: #fff; margin-bottom: 12px; line-height: 1.25; }
-.safety-text p { font-size: 14px; color: rgba(255,255,255,.5); line-height: 1.8; margin-bottom: 24px; }
-.safety-claim {
-  display: inline-flex; align-items: center; gap: 8px;
-  background: rgba(0,160,227,.08); border: 1px solid rgba(0,160,227,.25);
-  color: #00A0E3; font-size: 12px; font-weight: 600; padding: 10px 18px; border-radius: 8px;
-}
-.safety-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-.scard { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.07); border-radius: 10px; padding: 20px; }
-.scard-icon { margin-bottom: 10px; }
-.scard-title { font-size: 13px; font-weight: 700; color: #fff; margin-bottom: 5px; }
-.scard-desc { font-size: 12px; color: rgba(255,255,255,.4); line-height: 1.6; }
+.safety-inner { display: grid; grid-template-columns: 2fr 3fr; gap: 72px; align-items: center; }
+.safety-text h2 { font-size: clamp(22px, 2.4vw, 36px); font-weight: 900; color: #0a0a14; letter-spacing: -.025em; line-height: 1.15; margin-bottom: 12px; }
+.safety-text p { font-size: 14px; color: #6a7a8a; line-height: 1.8; margin-bottom: 24px; }
+.sclaim { display: inline-flex; align-items: center; gap: 10px; background: #0a0a14; color: #fff; font-size: 12px; font-weight: 700; padding: 11px 18px; border-radius: 8px; }
+.sc-ck { width: 18px; height: 18px; border-radius: 50%; background: #00A0E3; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.scards { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.scard { background: #fff; border: 1px solid #e8eef4; border-radius: 12px; padding: 24px; }
+.scard-ic { width: 36px; height: 36px; border-radius: 8px; background: #f0f8ff; display: flex; align-items: center; justify-content: center; margin-bottom: 12px; }
+.scard-t { font-size: 13px; font-weight: 700; color: #0a0a14; margin-bottom: 5px; }
+.scard-d { font-size: 12px; color: #9aaab8; line-height: 1.6; }
 
-/* ── BRANDS ── */
-.brands { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; }
-.brand { background: #fff; color: #444; font-size: 12px; font-weight: 600; padding: 6px 14px; border-radius: 6px; border: 1px solid #e0e8f0; }
-.brand--main { background: #e8f5fe; color: #00A0E3; border-color: rgba(0,160,227,.2); }
+/* ── POJAZDY — zdjęcie ukośnie z prawego dolnego rogu ── */
+.split-vehicles {
+  position: relative; overflow: hidden;
+  min-height: 500px; display: flex; align-items: center;
+}
+.vehicles-img {
+  position: absolute; right: -5%; top: -5%; bottom: -5%; width: 52%;
+  clip-path: polygon(18% 0%, 100% 0%, 100% 100%, 0% 100%);
+  background: #1a2838; overflow: hidden;
+}
+.vehicles-img img { width: 100%; height: 100%; object-fit: cover; }
+.vehicles-fade {
+  position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(to right, #fff 0%, rgba(255,255,255,.5) 20%, transparent 55%);
+}
+.vehicles-content {
+  position: relative; z-index: 2;
+  padding: 72px 6%; max-width: 52%;
+}
+.vehicles-content h2 { font-size: clamp(22px, 2.4vw, 36px); font-weight: 900; color: #0a0a14; letter-spacing: -.025em; line-height: 1.15; margin-bottom: 12px; }
+.vehicles-content p { font-size: 14px; color: #6a7a8a; line-height: 1.8; margin-bottom: 20px; }
+.brands { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; }
+.bm { font-size: 12px; font-weight: 700; padding: 6px 14px; border-radius: 6px; background: #e8f5fe; color: #00A0E3; border: 1px solid rgba(0,160,227,.2); }
+.bs { font-size: 12px; font-weight: 700; padding: 6px 14px; border-radius: 6px; background: #fff; color: #778899; border: 1px solid #e0e8f0; }
+.vnote { font-size: 12px; color: #9aaab8; line-height: 1.7; }
+
+/* ── GALERIA ── */
+.gal-title { font-size: clamp(22px, 2.4vw, 36px); font-weight: 900; color: #0a0a14; letter-spacing: -.025em; margin-bottom: 8px; }
+.gal-sub { font-size: 14px; color: #9aaab8; margin-bottom: 40px; }
+.gg { display: grid; grid-template-columns: repeat(4,1fr); grid-template-rows: 200px 200px; gap: 10px; }
+.gi { border-radius: 10px; overflow: hidden; background: #c8d8e8; }
+.gi.big { grid-column: span 2; grid-row: span 2; }
+.gi img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
 /* ── NEWS ── */
-.news-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 32px; }
-.news-header h2 { font-size: 26px; font-weight: 700; color: #0f0f1a; letter-spacing: -.02em; }
-.news-more { font-size: 13px; color: #00A0E3; border-bottom: 1px solid rgba(0,160,227,.3); padding-bottom: 2px; }
-.news-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 20px; }
-.ncard { display: flex; flex-direction: column; background: #fff; border: 1px solid #ebebeb; border-radius: 12px; overflow: hidden; text-decoration: none; transition: box-shadow .2s; }
-.ncard:hover { box-shadow: 0 6px 24px rgba(0,0,0,.08); }
-.ncard-img { position: relative; overflow: hidden; background: #c8d8e8; flex-shrink: 0; }
-.ncard--featured .ncard-img { height: 220px; }
-.ncard:not(.ncard--featured) .ncard-img { height: 150px; }
-.ncard-img img { width: 100%; height: 100%; object-fit: cover; }
-.ncard-placeholder { width: 100%; height: 100%; background: linear-gradient(135deg,#c8d8e8,#a8bdd0); }
-.ntag { position: absolute; top: 10px; left: 10px; background: #fff; color: #00A0E3; font-size: 10px; font-weight: 700; padding: 3px 9px; border-radius: 20px; text-transform: uppercase; letter-spacing: .06em; }
-.ncard-body { padding: 18px; flex: 1; }
-.ndate { font-size: 11px; color: #ccc; margin-bottom: 8px; }
-.ncard h4 { font-size: 14px; font-weight: 600; color: #0f0f1a; line-height: 1.45; margin-bottom: 8px; }
-.ncard p { font-size: 12px; color: #999; line-height: 1.6; }
+.news-hdr { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 40px; }
+.news-title { font-size: clamp(22px, 2.4vw, 36px); font-weight: 900; color: #0a0a14; letter-spacing: -.025em; }
+.news-more { font-size: 13px; font-weight: 700; color: #00A0E3; text-decoration: none; display: flex; align-items: center; gap: 5px; }
+.ng { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 16px; }
+.nc { background: #fff; border-radius: 14px; overflow: hidden; text-decoration: none; display: flex; flex-direction: column; border: 1px solid #f0f4f8; transition: transform .2s, box-shadow .2s; }
+.nc:hover { transform: translateY(-4px); box-shadow: 0 10px 32px rgba(0,0,0,.08); }
+.nc-img { position: relative; overflow: hidden; background: #c8d8e8; flex-shrink: 0; }
+.nc.big .nc-img { height: 220px; }
+.nc:not(.big) .nc-img { height: 155px; }
+.nc-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.nc-ph { width: 100%; height: 100%; background: linear-gradient(135deg,#c8d8e8,#a8bdd0); }
+.nc-tag { position: absolute; top: 10px; left: 10px; background: #0a0a14; color: #fff; font-size: 9px; font-weight: 700; letter-spacing: .06em; padding: 4px 10px; border-radius: 20px; text-transform: uppercase; }
+.nc-body { padding: 20px; flex: 1; }
+.nc-date { font-size: 11px; color: #ccc; margin-bottom: 7px; }
+.nc h4 { font-size: 14px; font-weight: 700; color: #0a0a14; line-height: 1.4; margin-bottom: 7px; }
+.nc p { font-size: 12px; color: #9aaab8; line-height: 1.6; }
 .empty { color: #9aaab8; font-size: 14px; grid-column: 1/-1; }
 
-/* ── CONTACT ── */
-.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: start; }
-.contact-info h2 { font-size: 24px; font-weight: 700; color: #fff; margin-bottom: 10px; line-height: 1.25; }
-.contact-info > p { font-size: 14px; color: rgba(255,255,255,.4); margin-bottom: 36px; line-height: 1.7; }
-.cd { display: flex; align-items: flex-start; gap: 13px; margin-bottom: 18px; }
-.cd-icon { width: 36px; height: 36px; background: rgba(0,160,227,.1); border-radius: 7px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-.cd-lbl { font-size: 10px; color: rgba(255,255,255,.35); margin-bottom: 2px; text-transform: uppercase; letter-spacing: .05em; }
-.cd-val { font-size: 14px; color: #fff; font-weight: 500; text-decoration: none; }
-
-.contact-form { background: #fff; border-radius: 16px; padding: 40px; }
-.contact-form h3 { font-size: 18px; font-weight: 700; color: #0f0f1a; margin-bottom: 22px; }
+/* ── KONTAKT ── */
+.contact-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: start; }
+.ci h2 { font-size: clamp(22px, 2.4vw, 36px); font-weight: 900; color: #fff; letter-spacing: -.025em; line-height: 1.15; margin-bottom: 12px; }
+.ci > p { font-size: 14px; color: rgba(255,255,255,.38); margin-bottom: 40px; line-height: 1.8; }
+.cd { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 20px; }
+.cd-ic { width: 38px; height: 38px; background: rgba(0,160,227,.1); border: 1px solid rgba(0,160,227,.12); border-radius: 9px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.cd-l { font-size: 10px; color: rgba(255,255,255,.22); text-transform: uppercase; letter-spacing: .07em; margin-bottom: 2px; }
+.cd-v { font-size: 14px; color: #fff; font-weight: 600; text-decoration: none; display: block; }
+.cf { background: rgba(255,255,255,.05); border: 1px solid rgba(255,255,255,.08); border-radius: 16px; padding: 36px; }
+.cf h3 { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 24px; }
 form input, form textarea, form select {
-  width: 100%; background: #f7f9fc; border: 1px solid #e0e0e0; border-radius: 8px;
-  padding: 12px 14px; font-size: 13px; color: #0f0f1a; margin-bottom: 10px;
-  outline: none; font-family: inherit; transition: border-color .2s;
+  width: 100%; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.1);
+  border-radius: 8px; padding: 12px 15px; font-size: 13px; color: #fff;
+  margin-bottom: 10px; outline: none; font-family: var(--font); transition: border-color .2s;
 }
-form input:focus, form textarea:focus, form select:focus { border-color: #00A0E3; background: #fff; }
-form textarea { height: 100px; resize: none; }
+form input:focus, form textarea:focus, form select:focus { border-color: #00A0E3; }
+form input::placeholder, form textarea::placeholder { color: rgba(255,255,255,.22); }
+form select option { background: #0a0a14; }
+form textarea { height: 90px; resize: none; }
 
 /* ── FOOTER ── */
-.footer { background: #080d12; padding: 24px 0; }
-.footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
-.footer-copy { font-size: 11px; color: rgba(255,255,255,.25); }
-.footer-links { display: flex; gap: 18px; align-items: center; }
-.footer-links a { font-size: 11px; color: rgba(255,255,255,.25); text-decoration: none; }
-.footer-transport { background: rgba(0,160,227,.1); border: 1px solid rgba(0,160,227,.2); color: #00A0E3 !important; font-size: 12px !important; padding: 6px 14px; border-radius: 6px; font-weight: 500; }
+.footer { background: #060a10; padding: 24px 6%; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+.fc { font-size: 11px; color: rgba(255,255,255,.2); }
+.fl { display: flex; gap: 18px; align-items: center; }
+.fl a { font-size: 11px; color: rgba(255,255,255,.2); text-decoration: none; }
+.fl-tr { background: rgba(0,160,227,.1); border: 1px solid rgba(0,160,227,.18); color: #00A0E3 !important; font-size: 11px !important; padding: 7px 16px; border-radius: 6px; font-weight: 700; }
 
-/* ══════════════════════════════════
-   RESPONSIVE — TABLET (max 1024px)
-══════════════════════════════════ */
+/* ══════════════════════════
+   RESPONSIVE
+══════════════════════════ */
 @media (max-width: 1024px) {
-  .container { padding: 0 32px; }
-  .hero-inner { padding: 0 32px; gap: 32px; }
-  .hero-text { padding: 60px 0; }
-  .grid-3 { grid-template-columns: 1fr 1fr; }
-  .split { gap: 40px; }
-  .safety-grid { gap: 40px; }
-  .contact-grid { gap: 40px; }
-  .news-grid { grid-template-columns: 1fr 1fr; }
-  .ncard--featured { grid-column: 1 / -1; }
-  .ncard--featured .ncard-img { height: 240px; }
+  .hero { grid-template-columns: 1fr 1fr; }
+  .ug { grid-template-columns: 1fr 1fr; }
+  .safety-inner { grid-template-columns: 1fr; gap: 36px; }
+  .contact-inner { grid-template-columns: 1fr; gap: 40px; }
+  .ng { grid-template-columns: 1fr 1fr; }
+  .nc.big { grid-column: 1 / -1; }
 }
 
-/* ══════════════════════════════════
-   RESPONSIVE — MOBILE (max 768px)
-══════════════════════════════════ */
 @media (max-width: 768px) {
-  .container { padding: 0 20px; }
-  .section { padding: 56px 0; }
-
-  /* Hero mobile */
-  .hero-inner {
-    grid-template-columns: 1fr;
-    padding: 0 20px;
-    min-height: auto;
-    gap: 32px;
-  }
-  .hero-text { padding: 48px 0 0; }
-  .hero-text h1 { font-size: 32px; }
-  .hero-text p { font-size: 14px; max-width: 100%; }
-  .hero-photo { height: 280px; border-radius: 12px; }
+  .hero { grid-template-columns: 1fr; min-height: auto; }
+  .hero-l { padding: 48px 5% 0; }
+  .hero-l h1 { font-size: 32px; }
+  .hero-r { height: 260px; }
+  .hero-img { clip-path: none; width: 100%; right: 0; left: 0; top: 0; bottom: 0; height: 100%; }
+  .hero-fade { background: linear-gradient(to bottom, rgba(255,255,255,.95), rgba(255,255,255,.2)); }
   .hero-btns { flex-direction: column; }
   .hero-btns .btn-dark, .hero-btns .btn-blue { width: 100%; justify-content: center; }
-  .hero-stats { gap: 20px; }
-
-  /* Strip */
-  .strip { padding: 12px 20px; gap: 12px; justify-content: flex-start; overflow-x: auto; flex-wrap: nowrap; }
-  .strip-item { white-space: nowrap; }
-
-  /* Grids mobile */
-  .grid-3 { grid-template-columns: 1fr; }
-  .split { grid-template-columns: 1fr; gap: 28px; }
-  .split--rev { direction: ltr; }
-  .split-photo { aspect-ratio: 16/9; border-radius: 12px; }
-  .safety-grid { grid-template-columns: 1fr; gap: 32px; }
-  .safety-cards { grid-template-columns: 1fr 1fr; gap: 10px; }
-  .contact-grid { grid-template-columns: 1fr; gap: 32px; }
-  .news-grid { grid-template-columns: 1fr; }
-  .ncard--featured { grid-column: auto; }
-
-  /* Contact form */
-  .contact-form { padding: 28px 20px; border-radius: 12px; }
-
-  /* Section headers */
-  .section-header h2 { font-size: 22px; }
-  .split-text h2, .safety-text h2, .contact-info h2, .news-header h2 { font-size: 22px; }
-
-  /* Footer */
-  .footer-inner { flex-direction: column; text-align: center; padding: 0 20px; }
-  .footer-links { flex-wrap: wrap; justify-content: center; }
+  .ug { grid-template-columns: 1fr; }
+  .split-tech { min-height: auto; display: block; }
+  .tech-img { display: none; }
+  .tech-content { margin-left: 0; padding: 48px 5%; }
+  .split-vehicles { min-height: auto; display: block; }
+  .vehicles-img { display: none; }
+  .vehicles-content { max-width: 100%; padding: 48px 5%; }
+  .scards { grid-template-columns: 1fr; }
+  .gg { grid-template-columns: 1fr 1fr; grid-template-rows: auto; }
+  .gi.big { grid-column: 1 / -1; grid-row: auto; }
+  .ng { grid-template-columns: 1fr; }
+  .si { padding: 0 16px; font-size: 10px; }
+  .footer { flex-direction: column; text-align: center; padding: 20px 5%; }
 }
 
 @media (max-width: 480px) {
-  .safety-cards { grid-template-columns: 1fr; }
   .hero-stats { flex-wrap: wrap; gap: 16px; }
+  .gg { grid-template-columns: 1fr; }
 }
 </style>
