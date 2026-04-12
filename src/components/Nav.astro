@@ -1,22 +1,52 @@
+---
+interface Props {
+  lang?: 'pl' | 'en';
+}
+const { lang = 'pl' } = Astro.props;
+
+const base    = lang === 'en' ? '/en' : '';
+const altHref = lang === 'en' ? '/'   : '/en';
+const newsHref = lang === 'en' ? '/en/news' : '/aktualnosci';
+
+const t = {
+  subtitle: lang === 'en' ? 'Cryogenic Service'  : 'Serwis kriogeniczny',
+  services: lang === 'en' ? 'Services'            : 'Usługi',
+  tech:     lang === 'en' ? 'Technology'          : 'Technologia',
+  gallery:  lang === 'en' ? 'Gallery'             : 'Galeria',
+  news:     lang === 'en' ? 'News'                : 'Aktualności',
+  contact:  lang === 'en' ? 'Contact'             : 'Kontakt',
+  login:    lang === 'en' ? 'Log in'              : 'Zaloguj się',
+};
+---
+
 <header class="nav-wrap">
   <nav class="nav">
-    <a href="/" class="nav-logo" aria-label="LNG Best Partner Serwis">
+    <a href={lang === 'en' ? '/en' : '/'} class="nav-logo" aria-label="LNG Best Partner Serwis">
       <img src="/images/logo.svg" alt="LNG Best Partner Sp. z o.o." class="logo-img" />
       <span class="nav-divider"></span>
-      <span class="nav-subtitle">Serwis kriogeniczny</span>
+      <span class="nav-subtitle">{t.subtitle}</span>
     </a>
 
     <div class="nav-links" id="nav-links">
-      <a href="/#uslugi">Usługi</a>
-      <a href="/#technologia">Technologia</a>
-      <a href="/#galeria">Galeria</a>
-      <a href="/aktualnosci">Aktualności</a>
+      <a href={`${base}/#uslugi`}>{t.services}</a>
+      <a href={`${base}/#technologia`}>{t.tech}</a>
+      <a href={`${base}/#galeria`}>{t.gallery}</a>
+      <a href={newsHref}>{t.news}</a>
       <a href="https://transport-lng.pl" target="_blank" rel="noopener" class="nav-tr">↗ Transport LNG</a>
-      <a href="/#kontakt" class="nav-ct">Kontakt</a>
+      <a href={`${base}/#kontakt`} class="nav-ct">{t.contact}</a>
       <a href="https://app.lng.best" class="nav-login">
         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
-        Zaloguj się
+        {t.login}
       </a>
+
+      <div class="lang-switcher">
+        <a href="/" class={`lang-btn${lang === 'pl' ? ' lang-active' : ''}`} aria-label="Polski">
+          🇵🇱 PL
+        </a>
+        <a href="/en" class={`lang-btn${lang === 'en' ? ' lang-active' : ''}`} aria-label="English">
+          🇬🇧 EN
+        </a>
+      </div>
     </div>
 
     <button class="nav-burger" id="burger" aria-label="Menu" aria-expanded="false">
@@ -91,6 +121,26 @@
   box-shadow: 0 4px 20px rgba(0,160,227,.5);
 }
 
+/* ── Przełącznik języka ── */
+.lang-switcher {
+  display: flex; align-items: center; gap: 4px;
+  border: 1px solid #e8e8e8; border-radius: 8px;
+  overflow: hidden; flex-shrink: 0;
+}
+.lang-btn {
+  font-size: 11px !important; font-weight: 700 !important;
+  color: #999 !important; padding: 5px 10px !important;
+  line-height: 1; background: transparent;
+  transition: background .15s, color .15s !important;
+  white-space: nowrap;
+}
+.lang-btn:hover { color: #333 !important; background: #f5f5f5; }
+.lang-active {
+  background: #00A0E3 !important;
+  color: #fff !important;
+}
+.lang-active:hover { background: #0091cc !important; color: #fff !important; }
+
 .nav-burger {
   display: none; flex-direction: column; gap: 5px;
   background: none; border: none; cursor: pointer; padding: 6px; flex-shrink: 0;
@@ -112,5 +162,6 @@
   .nav-links.open { display: flex; }
   .nav-links a { font-size: 15px; width: 100%; }
   .nav-login { justify-content: center; }
+  .lang-switcher { align-self: flex-start; }
 }
 </style>
