@@ -1,27 +1,27 @@
 ---
 interface Props {
-  lang?: 'pl' | 'en';
+  lang?: 'pl' | 'en' | 'de';
 }
 const { lang = 'pl' } = Astro.props;
 
-const base    = lang === 'en' ? '/en' : '';
-const altHref = lang === 'en' ? '/'   : '/en';
-const newsHref = lang === 'en' ? '/en/news' : '/aktualnosci';
+const base     = lang === 'en' ? '/en' : lang === 'de' ? '/de' : '';
+const newsHref = lang === 'en' ? '/en/news' : lang === 'de' ? '/de/news' : '/aktualnosci';
+const homeHref = lang === 'en' ? '/en' : lang === 'de' ? '/de' : '/';
 
 const t = {
-  subtitle: lang === 'en' ? 'Cryogenic Service'  : 'Serwis kriogeniczny',
-  services: lang === 'en' ? 'Services'            : 'Usługi',
-  tech:     lang === 'en' ? 'Technology'          : 'Technologia',
-  gallery:  lang === 'en' ? 'Gallery'             : 'Galeria',
-  news:     lang === 'en' ? 'News'                : 'Aktualności',
-  contact:  lang === 'en' ? 'Contact'             : 'Kontakt',
-  login:    lang === 'en' ? 'Log in'              : 'Zaloguj się',
+  subtitle: lang === 'en' ? 'Cryogenic Service'    : lang === 'de' ? 'Kryogener Service'   : 'Serwis kriogeniczny',
+  services: lang === 'en' ? 'Services'             : lang === 'de' ? 'Leistungen'           : 'Usługi',
+  tech:     lang === 'en' ? 'Technology'           : lang === 'de' ? 'Technologie'          : 'Technologia',
+  gallery:  lang === 'en' ? 'Gallery'              : lang === 'de' ? 'Galerie'              : 'Galeria',
+  news:     lang === 'en' ? 'News'                 : lang === 'de' ? 'Aktuelles'            : 'Aktualności',
+  contact:  lang === 'en' ? 'Contact'              : lang === 'de' ? 'Kontakt'              : 'Kontakt',
+  login:    lang === 'en' ? 'Log in'               : lang === 'de' ? 'Anmelden'             : 'Zaloguj się',
 };
 ---
 
 <header class="nav-wrap">
   <nav class="nav">
-    <a href={lang === 'en' ? '/en' : '/'} class="nav-logo" aria-label="LNG Best Partner Serwis">
+    <a href={homeHref} class="nav-logo" aria-label="LNG Best Partner Serwis">
       <img src="/images/logo.svg" alt="LNG Best Partner Sp. z o.o." class="logo-img" />
       <span class="nav-divider"></span>
       <span class="nav-subtitle">{t.subtitle}</span>
@@ -45,6 +45,9 @@ const t = {
         </a>
         <a href="/en" class={`lang-btn${lang === 'en' ? ' lang-active' : ''}`} aria-label="English">
           🇬🇧 EN
+        </a>
+        <a href="/de" class={`lang-btn${lang === 'de' ? ' lang-active' : ''}`} aria-label="Deutsch">
+          🇩🇪 DE
         </a>
       </div>
     </div>

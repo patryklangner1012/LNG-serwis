@@ -1,0 +1,401 @@
+---
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+
+const postFiles = await Astro.glob('../../content/posts/*.md');
+const posts = postFiles
+  .sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime())
+  .slice(0, 3);
+---
+<Base
+  lang="de"
+  title="LNG Best Partner Serwis — Kryogener Tankwagen-Service"
+  description="Spezialisierter Service für kryogene Tankfahrzeuge und Nutzfahrzeuge. Laser-Methandetektion, Vakuumpumpe, Helium-Lecksuche, Thermografie. Karlino, Polen."
+>
+  <Nav lang="de" />
+
+  <!-- ═══ HERO ═══ -->
+  <section class="hero">
+    <div class="hero-l">
+      <div class="hero-tag">
+        <span class="hero-tag-dot"></span>
+        Nordpolen · Kryogener Service PL/EU
+      </div>
+      <h1>Service für <em>kryogene</em> Tankfahrzeuge<br>und Nutzfahrzeuge</h1>
+      <p>Gegründet auf über einem Jahrzehnt Erfahrung in der LNG-Branche — Service für kryogene Tankfahrzeuge und Nutzfahrzeuge, getragen von täglich gelebtem Fachwissen aus erster Hand.</p>
+      <div class="hero-btns">
+        <a href="#uslugi" class="btn-dark">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Leistungen entdecken
+        </a>
+        <a href="tel:795196740" class="btn-blue">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z" fill="#fff"/></svg>
+          795 196 740
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="hs"><span class="hs-n">10+</span><span class="hs-l">Jahre Erfahrung</span></div>
+        <div class="hs"><span class="hs-n">A–Z</span><span class="hs-l">Vollständiges Spektrum</span></div>
+        <div class="hs"><span class="hs-n">PL/EU</span><span class="hs-l">Kryogener Service</span></div>
+      </div>
+    </div>
+
+    <div class="hero-r">
+      <div class="hero-img">
+        <img src="/images/hero-cysterna.jpg" alt="Kryogener Tankwagen-Service — LNG Best Partner Karlino" />
+      </div>
+      <div class="hero-fade"></div>
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <div>
+          <div class="badge-t">Werkstatt geöffnet</div>
+          <div class="badge-s">Karlino, Westpommern</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STRIP -->
+  <div class="strip">
+    <div class="si"><span class="sd"></span>Laser-Methandetektion</div>
+    <div class="si"><span class="sd"></span>Vakuumisolierung-Instandsetzung</div>
+    <div class="si"><span class="sd"></span>Helium-Lecksuche</div>
+    <div class="si"><span class="sd"></span>ADR Klasse 2 / TDT</div>
+    <div class="si"><span class="sd"></span>Kryogener Service PL/EU</div>
+    <div class="si"><span class="sd"></span>Nutzfahrzeugservice</div>
+  </div>
+
+  <!-- ═══ LEISTUNGEN ═══ -->
+  <section class="section bg-dark" id="uslugi">
+    <div class="sh">
+      <span class="stag stag-light">Leistungsübersicht</span>
+      <h2>Umfassender Service — kryogen und Nutzfahrzeuge</h2>
+      <p>Wir decken das gesamte Spektrum technischer Anforderungen ab — vom Nutzfahrzeugservice über kryogene Diagnostik bis hin zum mobilen LNG-Tankwagen-Notdienst.</p>
+    </div>
+    <div class="ug">
+      <div class="uc"><div class="uc-n">01</div><div class="uc-bar"></div><h3>Nutzfahrzeugreparatur</h3><p>Umfassende Wartung von Nutzfahrzeugen mit besonderem Schwerpunkt auf den Marken Scania, Volvo und Renault. Wir servicieren auch alle anderen Hersteller.</p></div>
+      <div class="uc"><div class="uc-n">02</div><div class="uc-bar"></div><h3>Anhänger- und Aufliegerreparatur</h3><p>Reparatur aller schweren Anhänger und Auflieger mit Systemen der Marken KNORR-BREMSE, WABCO, ZF und HALDEX.</p></div>
+      <div class="uc"><div class="uc-n">03</div><div class="uc-bar"></div><h3>Kryoauflieger-Service</h3><p>Wir sind spezialisiert auf den Service kryogener Auflieger — einschließlich Diagnose, Reparatur und Wartung von Fahrzeugen zum Transport verflüssigter Gase.</p></div>
+      <div class="uc"><div class="uc-n">04</div><div class="uc-bar"></div><h3>Reifenservice</h3><p>Reifenservice für Nutzfahrzeuge, einschließlich Reifenwechsel und -reparatur. Schnelle, professionelle Ausführung — zugeschnitten auf die Anforderungen der Transportbranche.</p></div>
+      <div class="uc"><div class="uc-n">05</div><div class="uc-bar"></div><h3>Vakuumbehälterwartung</h3><p>Wartung mobiler und stationärer Vakuumbehälter zur Sicherstellung dauerhafter technischer Zuverlässigkeit und eines sicheren Betriebs.</p></div>
+      <div class="uc"><div class="uc-n">06</div><div class="uc-bar"></div><h3>Helium-Lecksuche</h3><p>Präzise Erkennung auch kleinster Undichtigkeiten in Anlagen und Behältern. Moderne Prüfmethoden garantieren hohe Effizienz und Sicherheit.</p></div>
+      <div class="uc"><div class="uc-n">07</div><div class="uc-bar"></div><h3>TDT-Prüfungsvorbereitung</h3><p>Umfassende Vorbereitung von Fahrzeugen und Geräten auf TDT-Technische Prüfungen, einschließlich technischer Inspektion, erforderlicher Reparaturen und Konformitätsprüfung.</p></div>
+      <div class="uc"><div class="uc-n">08</div><div class="uc-bar"></div><h3>Mobiler LNG-Tankwagen-Notdienst</h3><p>Mobiler LNG-Tankwagen-Notdienst — schnelle, professionelle Pannenhilfe direkt vor Ort. Effiziente Diagnose, Reparatur und Minimierung von Ausfallzeiten.</p></div>
+      <div class="uc"><div class="uc-n">09</div><div class="uc-bar"></div><h3>Thermografische Messungen</h3><p>Thermografische Messungen zur Beurteilung des technischen Zustands von Anlagen und Geräten. Moderne Messtechnik, zuverlässige Ergebnisse und detaillierte Dokumentation.</p></div>
+    </div>
+  </section>
+
+  <!-- ═══ TECHNOLOGIE ═══ -->
+  <section class="split-tech bg-white" id="technologia">
+    <div class="tech-img">
+      <img src="/images/tech-pompa.jpg" alt="Vakuumpumpe — kryogener Service" />
+    </div>
+    <div class="tech-fade"></div>
+    <div class="tech-content">
+      <span class="stag">Technologie &amp; Diagnostik</span>
+      <h2>Fortschrittliche Diagnosetechnik</h2>
+      <p>Wir investieren in industrielle Spitzentechnologie. Jeder Auftrag wird mit einer Präzision ausgeführt, die in einer Standardwerkstatt nicht verfügbar ist.</p>
+      <div class="tis">
+        <div class="ti">
+          <div class="ti-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2v-4M9 21H5a2 2 0 0 1-2-2v-4m0 0h18" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <div><div class="ti-t">Laser-Methandetektor</div><div class="ti-d">Kontinuierliche Atmosphärenüberwachung — Echtzeit-Schutz von Sachwerten und Personal.</div></div>
+        </div>
+        <div class="ti">
+          <div class="ti-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="#00A0E3" stroke-width="1.5"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <div><div class="ti-t">Helium-Lecksuche</div><div class="ti-d">Leckageerkennung, die mit herkömmlichen Methoden nicht möglich ist.</div></div>
+        </div>
+        <div class="ti">
+          <div class="ti-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M2 12h1M21 12h1M12 2v1M12 21v1M4.93 4.93l.7.7M18.37 18.37l.7.7M4.93 19.07l.7-.7M18.37 5.63l.7-.7" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/><circle cx="12" cy="12" r="4" stroke="#00A0E3" stroke-width="1.5"/></svg></div>
+          <div><div class="ti-t">Wärmebildkamera</div><div class="ti-d">Erkennt Kältebrücken in der Außenhülle — überall dort, wo die Vakuumisolierung an Wirksamkeit verliert, macht die Kamera es sichtbar.</div></div>
+        </div>
+        <div class="ti">
+          <div class="ti-ic"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"><ellipse cx="12" cy="12" rx="10" ry="10" stroke="#00A0E3" stroke-width="1.5"/><path d="M12 8v4l3 3" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <div><div class="ti-t">Vakuumpumpe</div><div class="ti-d">Regeneration der Vakuumisolierkammern in kryogenen Aufliegern und stationären Behältern auf Werksparameter.</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ SICHERHEIT ═══ -->
+  <section class="section bg-gray">
+    <div class="safety-inner">
+      <div class="safety-text">
+        <span class="stag">Sicherheit</span>
+        <h2>Industrielle Sicherheitsstandards</h2>
+        <p>In einem kryogenen Umfeld gibt es keinen Platz für Kompromisse. Wir setzen Laser-Methandetektion ein — die kontinuierliche Überwachung der Arbeitsatmosphäre schützt sowohl das uns anvertraute Eigentum als auch unser Personal.</p>
+        <div class="sclaim">
+          <div class="sc-ck">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          Laser-Methandetektion in der Werkstattumgebung
+        </div>
+      </div>
+      <div class="scards">
+        <div class="scard">
+          <div class="scard-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="#00A0E3" stroke-width="1.5" stroke-linejoin="round"/></svg></div>
+          <div class="scard-t">Laser-Methandetektor</div>
+          <p class="scard-d">Atmosphärenüberwachung — Gefahrenerkennung bevor sie eintritt.</p>
+        </div>
+        <div class="scard">
+          <div class="scard-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="11" width="18" height="11" rx="2" stroke="#00A0E3" stroke-width="1.5"/><path d="M7 11V7a5 5 0 0 1 10 0v4" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <div class="scard-t">Schutz des Kundeneigentums</div>
+          <p class="scard-d">Ihr Tankfahrzeug in einer vollständig kontrollierten Arbeitsumgebung.</p>
+        </div>
+        <div class="scard">
+          <div class="scard-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/><circle cx="9" cy="7" r="4" stroke="#00A0E3" stroke-width="1.5"/></svg></div>
+          <div class="scard-t">Personalsicherheit</div>
+          <p class="scard-d">Zertifizierte Verfahren und industrielles Gerät der Spitzenklasse.</p>
+        </div>
+        <div class="scard">
+          <div class="scard-ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 11l3 3L22 4" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <div class="scard-t">TDT-Zulassung Klasse 2</div>
+          <p class="scard-d">Zulassung zur Vorbereitung kryogener Tankfahrzeuge der Klasse 2 auf technische Prüfungen.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FAHRZEUGE ═══ -->
+  <section class="split-vehicles bg-white">
+    <div class="vehicles-img">
+      <img src="/images/vehicles-serwis.jpg" alt="Sattelzugmaschinen-Service — Scania Volvo Renault Karlino" />
+    </div>
+    <div class="vehicles-fade"></div>
+    <div class="vehicles-content">
+      <span class="stag">Nutzfahrzeugservice</span>
+      <h2>Sattelzugmaschinen — unsere zweite Spezialität</h2>
+      <p>Vollumfängliche technische Betreuung von Nutzfahrzeugen und Aufliegern. Wir sind spezialisiert auf skandinavische Marken — servicieren jedoch ausnahmslos jede Marke.</p>
+      <div class="brands">
+        <span class="bm">Scania</span><span class="bm">Volvo</span><span class="bm">Renault</span>
+        <span class="bs">MAN</span><span class="bs">DAF</span><span class="bs">Mercedes</span><span class="bs">+ weitere</span>
+      </div>
+      <p class="vnote">Wartungsverträge für Fuhrparks · Priorisierte Reaktionszeit · Dedizierter technischer Ansprechpartner</p>
+    </div>
+  </section>
+
+  <!-- ═══ GALERIE ═══ -->
+  <section class="section bg-gray" id="galeria">
+    <span class="stag">Galerie</span>
+    <h2 class="gal-title">Unsere abgeschlossenen Projekte</h2>
+    <p class="gal-sub">Fotos aus der Werkstatt und von Projekten</p>
+    <div class="gg">
+      <div class="gi big"><img src="/images/galeria-1.jpg" alt="Kryogenes Serviceprojekt" /></div>
+      <div class="gi"><img src="/images/galeria-2.jpg" alt="LNG Best Partner Werkstatt" /></div>
+      <div class="gi"><img src="/images/galeria-3.jpg" alt="Tankwagen-Service" /></div>
+      <div class="gi"><img src="/images/galeria-4.jpg" alt="Vakuumpumpe" /></div>
+      <div class="gi"><img src="/images/galeria-5.jpg" alt="Fahrzeugservice" /></div>
+    </div>
+  </section>
+
+  <!-- ═══ AKTUELLES ═══ -->
+  <section class="section bg-white">
+    <div class="news-hdr">
+      <div>
+        <span class="stag">Aktuelles</span>
+        <h2 class="news-title">Aus dem Werkstattalltag</h2>
+      </div>
+      <a href="/de/news" class="news-more">
+        Alle Beiträge
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="#00A0E3" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+    <div class="ng">
+      {posts.map((post, i) => (
+        <a href={post.url} class={`nc ${i === 0 ? 'big' : ''}`}>
+          <div class="nc-img">
+            {post.frontmatter.image
+              ? <img src={post.frontmatter.image} alt={post.frontmatter.title} loading="lazy" />
+              : <div class="nc-ph"></div>
+            }
+            <span class="nc-tag">{post.frontmatter.tag ?? 'Aktuell'}</span>
+          </div>
+          <div class="nc-body">
+            <div class="nc-date">{new Date(post.frontmatter.date).toLocaleDateString('de-DE', { year:'numeric', month:'long' })}</div>
+            <h4>{post.frontmatter.title}</h4>
+            <p>{post.frontmatter.excerpt}</p>
+          </div>
+        </a>
+      ))}
+      {posts.length === 0 && (
+        <p class="empty">Die ersten Beiträge erscheinen in Kürze.</p>
+      )}
+    </div>
+  </section>
+
+  <!-- ═══ KONTAKT ═══ -->
+  <section class="section bg-dark" id="kontakt">
+    <div class="contact-inner">
+      <div class="ci">
+        <span class="stag stag-light">Kontakt</span>
+        <h2>Sprechen wir über Ihr Fahrzeug oder Ihren Fuhrpark</h2>
+        <p>Angebot, Wartungsvertrag oder dringende Panne — wir antworten prompt und konkret.</p>
+        <div class="cd">
+          <div class="cd-ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z" fill="#00A0E3"/></svg></div>
+          <div><div class="cd-l">Service-Telefon</div><a href="tel:795196740" class="cd-v">795 196 740</a></div>
+        </div>
+        <div class="cd">
+          <div class="cd-ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="#00A0E3" stroke-width="1.5"/><polyline points="22,6 12,13 2,6" stroke="#00A0E3" stroke-width="1.5"/></svg></div>
+          <div><div class="cd-l">E-Mail</div><a href="mailto:biuro@lngbestpartner.pl" class="cd-v">biuro@lngbestpartner.pl</a></div>
+        </div>
+        <div class="cd">
+          <div class="cd-ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="#00A0E3" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="#00A0E3" stroke-width="1.5"/></svg></div>
+          <div><div class="cd-l">Werkstatt</div><div class="cd-v">Krzywopłoty 2A, 78-230 Karlino</div></div>
+        </div>
+        <div class="cd">
+          <div class="cd-ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><rect x="2" y="7" width="20" height="14" rx="2" stroke="#00A0E3" stroke-width="1.5"/><path d="M16 7V5a2 2 0 0 0-4 0v2" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <div><div class="cd-l">USt-IdNr.</div><div class="cd-v">PL6722081703</div></div>
+        </div>
+      </div>
+      <div class="cf">
+        <h3>Anfrage senden</h3>
+        <form name="contact-de" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact-de" />
+          <input type="text" name="company" placeholder="Vor- und Nachname / Firmenname" required />
+          <input type="text" name="contact" placeholder="Telefon oder E-Mail" required />
+          <select name="subject">
+            <option value="">Worum geht es bei Ihrer Anfrage?</option>
+            <option>Kryoauflieger-Service</option>
+            <option>Vakuumbehälterwartung</option>
+            <option>Helium-Lecksuche</option>
+            <option>Thermografische Messungen</option>
+            <option>Vakuumpumpe</option>
+            <option>ADR / TDT-Prüfung</option>
+            <option>Mobiler LNG-Tankwagen-Notdienst</option>
+            <option>Nutzfahrzeugreparatur</option>
+            <option>Anhänger- / Aufliegerreparatur</option>
+            <option>Reifenservice</option>
+            <option>Wartungsvertrag für Fuhrpark</option>
+            <option>Sonstiges</option>
+          </select>
+          <textarea name="message" placeholder="Beschreiben Sie Ihr Problem oder Ihre Anfrage..."></textarea>
+          <button type="submit" class="btn-blue" style="width:100%;justify-content:center;padding:14px">Anfrage senden →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="fc">© 2026 LNG Best Partner Sp. z o.o. · USt-IdNr. PL6722081703 · Krzywopłoty 2A, 78-230 Karlino · Build by Patryk Langner</div>
+    <div class="fl">
+      <a href="/polityka-prywatnosci">Datenschutzrichtlinie</a>
+      <a href="/de#uslugi">Leistungen</a>
+      <a href="https://transport-lng.pl" target="_blank" rel="noopener" class="fl-tr">↗ transport-lng.pl</a>
+    </div>
+  </footer>
+</Base>
+
+<style>
+.hero{display:grid;grid-template-columns:1fr 1fr;min-height:580px;position:relative;overflow:hidden;background:#fff;width:100%}
+.hero-l{padding:72px 5% 72px 6%;display:flex;flex-direction:column;justify-content:center;position:relative;z-index:2}
+.hero-tag{display:inline-flex;align-items:center;gap:8px;background:#f0f8ff;border:1px solid rgba(0,160,227,.18);color:#00A0E3;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:6px 14px;border-radius:30px;margin-bottom:28px;width:fit-content}
+.hero-tag-dot{width:6px;height:6px;border-radius:50%;background:#00A0E3;flex-shrink:0}
+.hero-l h1{font-size:clamp(28px,3vw,50px);font-weight:900;line-height:1.05;color:#0a0a14;margin-bottom:20px;letter-spacing:-.03em}
+.hero-l h1 em{font-style:normal;color:#00A0E3}
+.hero-l p{font-size:15px;color:#6a7a8a;line-height:1.8;margin-bottom:32px;max-width:460px}
+.hero-btns{display:flex;gap:12px;margin-bottom:44px;flex-wrap:wrap}
+.hero-stats{display:flex;gap:36px;padding-top:28px;border-top:1px solid #f0f4f8}
+.hs{display:flex;flex-direction:column}
+.hs-n{font-size:26px;font-weight:900;color:#0a0a14;letter-spacing:-.02em}
+.hs-l{font-size:10px;color:#aab4be;margin-top:3px;font-weight:600;letter-spacing:.07em;text-transform:uppercase}
+.hero-r{position:relative;overflow:hidden;min-height:580px}
+.hero-img{position:absolute;inset:0;width:100%;height:100%;clip-path:polygon(20% 0%,100% 0%,100% 100%,0% 100%);background:#1a2a3a;overflow:hidden}
+.hero-img img{width:100%;height:100%;object-fit:cover}
+.hero-fade{position:absolute;inset:0;z-index:1;background:linear-gradient(to right,#fff 0%,rgba(255,255,255,.9) 12%,rgba(255,255,255,.4) 22%,transparent 35%)}
+.hero-badge{position:absolute;bottom:28px;left:24px;z-index:5;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-radius:10px;padding:12px 18px;display:flex;align-items:center;gap:10px;box-shadow:0 2px 20px rgba(0,0,0,.1)}
+.badge-dot{width:8px;height:8px;border-radius:50%;background:#22c55e;flex-shrink:0}
+.badge-t{font-size:12px;font-weight:700;color:#0a0a14}
+.badge-s{font-size:11px;color:#aaa}
+.strip{background:#00A0E3;padding:15px 6%;display:flex;gap:0;overflow-x:auto}
+.si{display:flex;align-items:center;gap:9px;font-size:11px;font-weight:700;color:#fff;letter-spacing:.07em;text-transform:uppercase;padding:0 28px;border-right:1px solid rgba(255,255,255,.22);white-space:nowrap;flex-shrink:0}
+.si:first-child{padding-left:0}.si:last-child{border-right:none}
+.sd{display:inline-block;width:4px;height:4px;border-radius:50%;background:rgba(255,255,255,.5);flex-shrink:0}
+.sh{margin-bottom:48px}
+.sh h2{font-size:clamp(24px,2.6vw,40px);font-weight:900;color:#fff;letter-spacing:-.025em;line-height:1.12;margin-bottom:12px}
+.sh p{font-size:14px;color:rgba(255,255,255,.4);max-width:540px;line-height:1.8}
+.ug{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.06)}
+.uc{background:#0a0a14;padding:36px 30px;transition:background .15s}
+.uc:hover{background:#0f1828}
+.uc-n{font-size:10px;font-weight:700;color:rgba(0,160,227,.35);letter-spacing:.1em;margin-bottom:14px}
+.uc-bar{width:30px;height:2px;background:#00A0E3;margin-bottom:20px}
+.uc h3{font-size:16px;font-weight:700;color:#fff;margin-bottom:10px;line-height:1.3}
+.uc p{font-size:13px;color:rgba(255,255,255,.38);line-height:1.72}
+.split-tech{position:relative;overflow:hidden;min-height:540px;display:flex;align-items:center}
+.tech-img{position:absolute;left:-5%;top:-5%;bottom:-5%;width:52%;clip-path:polygon(0% 0%,82% 0%,100% 100%,0% 100%);background:#1a2a3a;overflow:hidden}
+.tech-img img{width:100%;height:100%;object-fit:cover}
+.tech-fade{position:absolute;inset:0;z-index:1;background:linear-gradient(to left,#fff 0%,rgba(255,255,255,.4) 22%,transparent 58%)}
+.tech-content{position:relative;z-index:2;margin-left:50%;padding:72px 6% 72px 4%}
+.tech-content h2{font-size:clamp(22px,2.4vw,36px);font-weight:900;color:#0a0a14;letter-spacing:-.025em;line-height:1.15;margin-bottom:12px}
+.tech-content>p{font-size:14px;color:#6a7a8a;line-height:1.8}
+.tis{display:flex;flex-direction:column;gap:0;margin-top:24px}
+.ti{display:flex;align-items:flex-start;gap:14px;padding:16px 0;border-bottom:1px solid #f0f4f8}
+.ti:last-child{border-bottom:none}
+.ti-ic{width:34px;height:34px;border-radius:8px;background:#f0f8ff;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.ti-t{font-size:13px;font-weight:700;color:#0a0a14;margin-bottom:2px}
+.ti-d{font-size:12px;color:#9aaab8;line-height:1.5}
+.safety-inner{display:grid;grid-template-columns:2fr 3fr;gap:72px;align-items:center}
+.safety-text h2{font-size:clamp(22px,2.4vw,36px);font-weight:900;color:#0a0a14;letter-spacing:-.025em;line-height:1.15;margin-bottom:12px}
+.safety-text p{font-size:14px;color:#6a7a8a;line-height:1.8;margin-bottom:24px}
+.sclaim{display:inline-flex;align-items:center;gap:10px;background:#0a0a14;color:#fff;font-size:12px;font-weight:700;padding:11px 18px;border-radius:8px}
+.sc-ck{width:18px;height:18px;border-radius:50%;background:#00A0E3;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.scards{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.scard{background:#fff;border:1px solid #e8eef4;border-radius:12px;padding:24px}
+.scard-ic{width:36px;height:36px;border-radius:8px;background:#f0f8ff;display:flex;align-items:center;justify-content:center;margin-bottom:12px}
+.scard-t{font-size:13px;font-weight:700;color:#0a0a14;margin-bottom:5px}
+.scard-d{font-size:12px;color:#9aaab8;line-height:1.6}
+.split-vehicles{position:relative;overflow:hidden;min-height:500px;display:flex;align-items:center}
+.vehicles-img{position:absolute;right:-5%;top:-5%;bottom:-5%;width:52%;clip-path:polygon(18% 0%,100% 0%,100% 100%,0% 100%);background:#1a2838;overflow:hidden}
+.vehicles-img img{width:100%;height:100%;object-fit:cover}
+.vehicles-fade{position:absolute;inset:0;z-index:1;background:linear-gradient(to right,#fff 0%,rgba(255,255,255,.5) 20%,transparent 55%)}
+.vehicles-content{position:relative;z-index:2;padding:72px 6%;max-width:52%}
+.vehicles-content h2{font-size:clamp(22px,2.4vw,36px);font-weight:900;color:#0a0a14;letter-spacing:-.025em;line-height:1.15;margin-bottom:12px}
+.vehicles-content p{font-size:14px;color:#6a7a8a;line-height:1.8;margin-bottom:20px}
+.brands{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.bm{font-size:12px;font-weight:700;padding:6px 14px;border-radius:6px;background:#e8f5fe;color:#00A0E3;border:1px solid rgba(0,160,227,.2)}
+.bs{font-size:12px;font-weight:700;padding:6px 14px;border-radius:6px;background:#fff;color:#778899;border:1px solid #e0e8f0}
+.vnote{font-size:12px;color:#9aaab8;line-height:1.7}
+.gal-title{font-size:clamp(22px,2.4vw,36px);font-weight:900;color:#0a0a14;letter-spacing:-.025em;margin-bottom:8px}
+.gal-sub{font-size:14px;color:#9aaab8;margin-bottom:40px}
+.gg{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:200px 200px;gap:10px}
+.gi{border-radius:10px;overflow:hidden;background:#c8d8e8}
+.gi.big{grid-column:span 2;grid-row:span 2}
+.gi img{width:100%;height:100%;object-fit:cover;display:block}
+.news-hdr{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:40px}
+.news-title{font-size:clamp(22px,2.4vw,36px);font-weight:900;color:#0a0a14;letter-spacing:-.025em}
+.news-more{font-size:13px;font-weight:700;color:#00A0E3;text-decoration:none;display:flex;align-items:center;gap:5px}
+.ng{display:grid;grid-template-columns:2fr 1fr 1fr;gap:16px}
+.nc{background:#fff;border-radius:14px;overflow:hidden;text-decoration:none;display:flex;flex-direction:column;border:1px solid #f0f4f8;transition:transform .2s,box-shadow .2s}
+.nc:hover{transform:translateY(-4px);box-shadow:0 10px 32px rgba(0,0,0,.08)}
+.nc-img{position:relative;overflow:hidden;background:#c8d8e8;flex-shrink:0}
+.nc.big .nc-img{height:220px}.nc:not(.big) .nc-img{height:155px}
+.nc-img img{width:100%;height:100%;object-fit:cover;display:block}
+.nc-ph{width:100%;height:100%;background:linear-gradient(135deg,#c8d8e8,#a8bdd0)}
+.nc-tag{position:absolute;top:10px;left:10px;background:#0a0a14;color:#fff;font-size:9px;font-weight:700;letter-spacing:.06em;padding:4px 10px;border-radius:20px;text-transform:uppercase}
+.nc-body{padding:20px;flex:1}
+.nc-date{font-size:11px;color:#ccc;margin-bottom:7px}
+.nc h4{font-size:14px;font-weight:700;color:#0a0a14;line-height:1.4;margin-bottom:7px}
+.nc p{font-size:12px;color:#9aaab8;line-height:1.6}
+.empty{color:#9aaab8;font-size:14px;grid-column:1/-1}
+.contact-inner{display:grid;grid-template-columns:1fr 1fr;gap:72px;align-items:start}
+.ci h2{font-size:clamp(22px,2.4vw,36px);font-weight:900;color:#fff;letter-spacing:-.025em;line-height:1.15;margin-bottom:12px}
+.ci>p{font-size:14px;color:rgba(255,255,255,.38);margin-bottom:40px;line-height:1.8}
+.cd{display:flex;align-items:flex-start;gap:14px;margin-bottom:20px}
+.cd-ic{width:38px;height:38px;background:rgba(0,160,227,.1);border:1px solid rgba(0,160,227,.12);border-radius:9px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.cd-l{font-size:10px;color:rgba(255,255,255,.22);text-transform:uppercase;letter-spacing:.07em;margin-bottom:2px}
+.cd-v{font-size:14px;color:#fff;font-weight:600;text-decoration:none;display:block}
+.cf{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:36px}
+.cf h3{font-size:18px;font-weight:700;color:#fff;margin-bottom:24px}
+form input,form textarea,form select{width:100%;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:8px;padding:12px 15px;font-size:13px;color:#fff;margin-bottom:10px;outline:none;font-family:var(--font);transition:border-color .2s}
+form input:focus,form textarea:focus,form select:focus{border-color:#00A0E3}
+form input::placeholder,form textarea::placeholder{color:rgba(255,255,255,.22)}
+form select option{background:#0a0a14}
+form textarea{height:90px;resize:none}
+.footer{background:#060a10;padding:24px 6%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.fc{font-size:11px;color:rgba(255,255,255,.2)}
+.fl{display:flex;gap:18px;align-items:center}
+.fl a{font-size:11px;color:rgba(255,255,255,.2);text-decoration:none}
+.fl-tr{background:rgba(0,160,227,.1);border:1px solid rgba(0,160,227,.18);color:#00A0E3 !important;font-size:11px !important;padding:7px 16px;border-radius:6px;font-weight:700}
+@media(max-width:1024px){.ug{grid-template-columns:1fr 1fr}.safety-inner{grid-template-columns:1fr;gap:36px}.contact-inner{grid-template-columns:1fr;gap:40px}.ng{grid-template-columns:1fr 1fr}.nc.big{grid-column:1/-1}}
+@media(max-width:768px){.hero{grid-template-columns:1fr;min-height:auto}.hero-l{padding:48px 5% 0}.hero-l h1{font-size:30px}.hero-r{height:260px}.hero-img{clip-path:none;width:100%;right:0;left:0;top:0;bottom:0;height:100%}.hero-fade{background:linear-gradient(to bottom,rgba(255,255,255,.95),rgba(255,255,255,.2))}.hero-btns{flex-direction:column}.hero-btns .btn-dark,.hero-btns .btn-blue{width:100%;justify-content:center}.ug{grid-template-columns:1fr}.split-tech{min-height:auto;display:block}.tech-img{display:none}.tech-content{margin-left:0;padding:48px 5%}.split-vehicles{min-height:auto;display:block}.vehicles-img{display:none}.vehicles-content{max-width:100%;padding:48px 5%}.scards{grid-template-columns:1fr}.gg{grid-template-columns:1fr 1fr;grid-template-rows:auto}.gi.big{grid-column:1/-1;grid-row:auto}.ng{grid-template-columns:1fr}.si{padding:0 16px;font-size:10px}.footer{flex-direction:column;text-align:center;padding:20px 5%}.hero-stats{flex-wrap:wrap;gap:16px}}
+@media(max-width:480px){.gg{grid-template-columns:1fr}}
+</style>
