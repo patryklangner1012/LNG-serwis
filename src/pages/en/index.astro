@@ -425,10 +425,16 @@ form textarea { height: 90px; resize: none; }
   .contact-inner { grid-template-columns: 1fr; gap: 40px; }
   .ng { grid-template-columns: 1fr 1fr; }
   .nc.big { grid-column: 1 / -1; }
+  .split-tech { min-height: auto; display: block; }
+  .tech-img { display: none; }
+  .tech-content { margin-left: 0; padding: 56px 6%; }
+  .split-vehicles { min-height: auto; display: block; }
+  .vehicles-img { display: none; }
+  .vehicles-content { max-width: 100%; padding: 56px 6%; }
 }
 @media (max-width: 768px) {
   .hero { grid-template-columns: 1fr; min-height: auto; }
-  .hero-l { padding: 48px 5% 0; }
+  .hero-l { padding: 48px 5% 40px; }
   .hero-l h1 { font-size: 30px; }
   .hero-r { height: 260px; }
   .hero-img { clip-path: none; width: 100%; right: 0; left: 0; top: 0; bottom: 0; height: 100%; }
@@ -452,5 +458,8 @@ form textarea { height: 90px; resize: none; }
 }
 @media (max-width: 480px) {
   .gg { grid-template-columns: 1fr; }
+  .cf { padding: 20px; }
+  form input, form textarea, form select { margin-bottom: 12px; }
+  .si { padding: 0 12px; font-size: 10px; }
 }
 </style>
