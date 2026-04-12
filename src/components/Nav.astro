@@ -40,15 +40,9 @@ const t = {
       </a>
 
       <div class="lang-switcher">
-        <a href="/" class={`lang-btn${lang === 'pl' ? ' lang-active' : ''}`} aria-label="Polski">
-          🇵🇱 PL
-        </a>
-        <a href="/en" class={`lang-btn${lang === 'en' ? ' lang-active' : ''}`} aria-label="English">
-          🇬🇧 EN
-        </a>
-        <a href="/de" class={`lang-btn${lang === 'de' ? ' lang-active' : ''}`} aria-label="Deutsch">
-          🇩🇪 DE
-        </a>
+        <a href="/" class={`lang-btn${lang === 'pl' ? ' lang-active' : ''}`} aria-label="Polski">🇵🇱</a>
+        <a href="/en" class={`lang-btn${lang === 'en' ? ' lang-active' : ''}`} aria-label="English">🇬🇧</a>
+        <a href="/de" class={`lang-btn${lang === 'de' ? ' lang-active' : ''}`} aria-label="Deutsch">🇩🇪</a>
       </div>
     </div>
 
@@ -131,18 +125,15 @@ const t = {
   overflow: hidden; flex-shrink: 0;
 }
 .lang-btn {
-  font-size: 11px !important; font-weight: 700 !important;
-  color: #999 !important; padding: 5px 10px !important;
+  font-size: 18px !important;
+  padding: 4px 8px !important;
   line-height: 1; background: transparent;
-  transition: background .15s, color .15s !important;
-  white-space: nowrap;
+  transition: background .15s, opacity .15s !important;
+  opacity: .55;
 }
-.lang-btn:hover { color: #333 !important; background: #f5f5f5; }
-.lang-active {
-  background: #00A0E3 !important;
-  color: #fff !important;
-}
-.lang-active:hover { background: #0091cc !important; color: #fff !important; }
+.lang-btn:hover { background: #f5f5f5; opacity: 1; }
+.lang-active { background: #00A0E3 !important; opacity: 1 !important; border-radius: 6px; }
+.lang-active:hover { background: #0091cc !important; }
 
 .nav-burger {
   display: none; flex-direction: column; gap: 5px;
