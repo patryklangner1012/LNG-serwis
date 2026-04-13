@@ -32,12 +32,14 @@ a { color: inherit; text-decoration: none; }
 }
 .stag-light { color: rgba(0,160,227,.7); }
 
+/* ── Buttons ── */
 .btn-dark {
   display: inline-flex; align-items: center; gap: 8px;
   padding: 14px 26px; border-radius: 8px;
   font-size: 14px; font-weight: 700;
   background: var(--dark); color: #fff;
-  font-family: var(--font); transition: opacity .2s;
+  font-family: var(--font);
+  transition: transform .2s ease, box-shadow .2s ease;
   text-decoration: none; border: none; cursor: pointer;
 }
 .btn-blue {
@@ -45,17 +47,44 @@ a { color: inherit; text-decoration: none; }
   padding: 14px 26px; border-radius: 8px;
   font-size: 14px; font-weight: 700;
   background: var(--blue); color: #fff;
-  font-family: var(--font); transition: opacity .2s;
+  font-family: var(--font);
+  transition: transform .2s ease, box-shadow .2s ease;
   text-decoration: none; border: none; cursor: pointer;
 }
-.btn-dark:hover, .btn-blue:hover { opacity: .85; }
+.btn-dark:hover  { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(10,10,20,.28); }
+.btn-blue:hover  { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,160,227,.45); }
 
+/* ── Layout helpers ── */
 .section { padding: 90px 6%; }
 .bg-dark  { background: var(--dark); }
 .bg-gray  { background: var(--gray-bg); }
 .bg-white { background: #fff; }
 
-/* Responsive base */
+/* ── Scroll reveal ── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.reveal.in {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal.in.d1 { transition-delay: .08s; }
+.reveal.in.d2 { transition-delay: .16s; }
+.reveal.in.d3 { transition-delay: .24s; }
+.reveal.in.d4 { transition-delay: .32s; }
+.reveal.in.d5 { transition-delay: .40s; }
+.reveal.in.d6 { transition-delay: .48s; }
+.reveal.in.d7 { transition-delay: .56s; }
+.reveal.in.d8 { transition-delay: .64s; }
+.reveal.in.d9 { transition-delay: .72s; }
+
+/* ── Responsive base ── */
 @media (max-width: 900px) {
   .section { padding: 60px 5%; }
 }
