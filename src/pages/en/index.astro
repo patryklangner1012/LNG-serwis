@@ -283,6 +283,10 @@ const posts = postFiles
               <div class="cd-ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z" fill="#00A0E3"/></svg></div>
               <div><div class="cd-l">Phone</div><a href="tel:+48502153705" class="cd-v">+48 502 153 705</a></div>
             </div>
+            <div class="cd">
+              <div class="cd-ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2z" fill="#00A0E3"/></svg></div>
+              <div><div class="cd-l">Phone</div><a href="tel:+48668230812" class="cd-v">+48 668 230 812</a></div>
+            </div>
             <div class="cd" style="margin-bottom:0">
               <div class="cd-ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="#00A0E3" stroke-width="1.5"/><polyline points="22,6 12,13 2,6" stroke="#00A0E3" stroke-width="1.5"/></svg></div>
               <div><div class="cd-l">E-mail</div><a href="mailto:biuro@lngbestpartner.pl" class="cd-v">biuro@lngbestpartner.pl</a></div>
@@ -290,13 +294,23 @@ const posts = postFiles
           </div>
         </div>
         <div class="ci-meta">
-          <div class="cd">
-            <div class="cd-ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="#00A0E3" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="#00A0E3" stroke-width="1.5"/></svg></div>
-            <div><div class="cd-l">Workshop</div><div class="cd-v">Krzywopłoty 2A, 78-230 Karlino</div></div>
-          </div>
           <div class="cd" style="margin-bottom:0">
-            <div class="cd-ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><rect x="2" y="7" width="20" height="14" rx="2" stroke="#00A0E3" stroke-width="1.5"/><path d="M16 7V5a2 2 0 0 0-4 0v2" stroke="#00A0E3" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-            <div><div class="cd-l">VAT No.</div><div class="cd-v">PL6722081703</div></div>
+            <div class="cd-ic"><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="#00A0E3" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="#00A0E3" stroke-width="1.5"/></svg></div>
+            <div><div class="cd-l">Registered address</div><div class="cd-v">Krzywopłoty 2A, 78-230 Karlino, Poland</div></div>
+          </div>
+          <div class="ci-reg">
+            <div class="ci-reg-item">
+              <div class="cd-l">KRS</div>
+              <div class="ci-reg-v">0000567583</div>
+            </div>
+            <div class="ci-reg-item">
+              <div class="cd-l">VAT No.</div>
+              <div class="ci-reg-v">PL6722081703</div>
+            </div>
+            <div class="ci-reg-item">
+              <div class="cd-l">REGON</div>
+              <div class="ci-reg-v">362038338</div>
+            </div>
           </div>
         </div>
       </div>
@@ -494,7 +508,11 @@ const posts = postFiles
 .ci-groups { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 20px; }
 .ci-group { background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.07); border-radius: 12px; padding: 20px 18px; }
 .ci-group-h { font-size: 9px; font-weight: 800; color: #00A0E3; letter-spacing: .13em; text-transform: uppercase; margin-bottom: 18px; }
-.ci-meta { border-top: 1px solid rgba(255,255,255,.07); padding-top: 20px; }
+.ci-meta { border-top: 1px solid rgba(255,255,255,.07); padding-top: 20px; display: flex; flex-direction: column; gap: 16px; }
+.ci-reg { display: grid; grid-template-columns: 1fr 1fr 1fr; border: 1px solid rgba(255,255,255,.07); border-radius: 10px; overflow: hidden; }
+.ci-reg-item { padding: 12px 14px; border-right: 1px solid rgba(255,255,255,.07); }
+.ci-reg-item:last-child { border-right: none; }
+.ci-reg-v { font-size: 13px; color: #fff; font-weight: 600; margin-top: 4px; letter-spacing: .01em; }
 .cd { display: flex; align-items: flex-start; gap: 14px; margin-bottom: 20px; }
 .cd-ic { width: 38px; height: 38px; background: rgba(0,160,227,.1); border: 1px solid rgba(0,160,227,.12); border-radius: 9px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
 .cd-l { font-size: 10px; color: rgba(255,255,255,.22); text-transform: uppercase; letter-spacing: .07em; margin-bottom: 2px; }
