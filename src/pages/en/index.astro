@@ -215,11 +215,11 @@ const posts = postFiles
     <h2 class="gal-title">Gallery</h2>
     <p class="gal-sub">Workshop and project photos</p>
     <div class="gg">
-      <div class="gi big"><img src="/images/galeria-1.jpg" alt="Cryogenic service project" /><div class="gi-cap">Cryogenic service project</div></div>
-      <div class="gi"><img src="/images/galeria-2.jpg" alt="LNG Best Partner workshop" /><div class="gi-cap">LNG Best Partner workshop</div></div>
-      <div class="gi"><img src="/images/galeria-3.jpg" alt="Tanker service" /><div class="gi-cap">Tanker service</div></div>
-      <div class="gi"><img src="/images/galeria-4.jpg" alt="Vacuum pump" /><div class="gi-cap">Vacuum pump</div></div>
-      <div class="gi"><img src="/images/galeria-5.jpg" alt="Vehicle service" /><div class="gi-cap">Heavy vehicle service</div></div>
+      <div class="gi big"><img src="/images/galeria-1.jpg" alt="Cryogenic service project" /></div>
+      <div class="gi"><img src="/images/galeria-2.jpg" alt="LNG Best Partner workshop" /></div>
+      <div class="gi"><img src="/images/galeria-3.jpg" alt="Tanker service" /></div>
+      <div class="gi"><img src="/images/galeria-4.jpg" alt="Vacuum pump" /></div>
+      <div class="gi"><img src="/images/galeria-5.jpg" alt="Vehicle service" /></div>
     </div>
   </section>
 
@@ -479,8 +479,6 @@ const posts = postFiles
 .gi.big { grid-column: span 2; grid-row: span 2; }
 .gi img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .4s ease; }
 .gi:hover img { transform: scale(1.04); }
-.gi-cap { position: absolute; bottom: 0; left: 0; right: 0; padding: 14px 16px 16px; background: linear-gradient(to top, rgba(0,0,0,.72) 0%, transparent 100%); color: #fff; font-size: 12px; font-weight: 600; letter-spacing: .02em; opacity: 0; transform: translateY(6px); transition: opacity .3s ease, transform .3s ease; }
-.gi:hover .gi-cap { opacity: 1; transform: translateY(0); }
 
 /* ── NEWS ── */
 .news-hdr { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 40px; }

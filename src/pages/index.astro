@@ -210,11 +210,11 @@ const posts = postFiles
     <h2 class="gal-title">Galeria</h2>
     <p class="gal-sub">Zdjęcia z warsztatu i realizacji</p>
     <div class="gg">
-      <div class="gi big"><img src="/images/galeria-1.jpg" alt="Realizacja serwis kriogeniczny" /><div class="gi-cap">Realizacja — serwis kriogeniczny</div></div>
-      <div class="gi"><img src="/images/galeria-2.jpg" alt="Warsztat LNG Best Partner" /><div class="gi-cap">Warsztat LNG Best Partner</div></div>
-      <div class="gi"><img src="/images/galeria-3.jpg" alt="Serwis cystern" /><div class="gi-cap">Serwis cystern</div></div>
-      <div class="gi"><img src="/images/galeria-4.jpg" alt="Pompa próżniowa" /><div class="gi-cap">Pompa próżniowa</div></div>
-      <div class="gi"><img src="/images/galeria-5.jpg" alt="Serwis pojazdów" /><div class="gi-cap">Serwis pojazdów ciężarowych</div></div>
+      <div class="gi big"><img src="/images/galeria-1.jpg" alt="Realizacja serwis kriogeniczny" /></div>
+      <div class="gi"><img src="/images/galeria-2.jpg" alt="Warsztat LNG Best Partner" /></div>
+      <div class="gi"><img src="/images/galeria-3.jpg" alt="Serwis cystern" /></div>
+      <div class="gi"><img src="/images/galeria-4.jpg" alt="Pompa próżniowa" /></div>
+      <div class="gi"><img src="/images/galeria-5.jpg" alt="Serwis pojazdów" /></div>
     </div>
   </section>
 
@@ -474,8 +474,6 @@ const posts = postFiles
 .gi.big { grid-column: span 2; grid-row: span 2; }
 .gi img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .4s ease; }
 .gi:hover img { transform: scale(1.04); }
-.gi-cap { position: absolute; bottom: 0; left: 0; right: 0; padding: 14px 16px 16px; background: linear-gradient(to top, rgba(0,0,0,.72) 0%, transparent 100%); color: #fff; font-size: 12px; font-weight: 600; letter-spacing: .02em; opacity: 0; transform: translateY(6px); transition: opacity .3s ease, transform .3s ease; }
-.gi:hover .gi-cap { opacity: 1; transform: translateY(0); }
 
 /* ── NEWS ── */
 .news-hdr { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 40px; }
