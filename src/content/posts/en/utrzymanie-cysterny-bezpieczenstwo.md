@@ -3,7 +3,7 @@ title: "Road Safety Starts in the Workshop"
 date: "2026-04-14"
 tag: "News"
 excerpt: "A cryogenic tanker transporting liquefied natural gas demands the highest maintenance standards. For us, this isn't a procedure — it's the foundation on which we build delivery reliability."
-image: "/images/posts/utrzymanie-cysterny-lng.jpg"
+image: "/images/utrzymanie-cysterny-lng.jpg"
 ---
 
 The transport of liquefied natural gas is a responsibility that doesn't end when the vehicle leaves the yard. It begins much earlier — at the service bay, during the daily inspection, and at every scheduled technical review. This systematic approach to maintaining cryogenic tankers is the guarantee that our vehicles reach customers without delays and without compromising on safety.

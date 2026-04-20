@@ -3,7 +3,7 @@ title: "LNG-Tanker kaufen? Zuerst ein technisches Audit"
 date: "2026-04-17"
 tag: "Dienstleistungen"
 excerpt: "Wir verfügen über spezialisierte Diagnoseressourcen und langjährige Erfahrung mit Kryotanks. Unser unabhängiges Vor-Kauf-Audit ist ein Dokument, das Ihnen genau sagt, was Sie kaufen."
-image: "/images/posts/audyt-cysterny-mobilny.jpg"
+image: "/images/audyt-cysterny-mobilny.jpg"
 ---
 
 Der Kauf eines gebrauchten Kryotankaufliegers ist eine Entscheidung, bei der nicht nur Kapital auf dem Spiel steht — es geht auch um betriebliche Sicherheit und technische Konformität für die kommenden Betriebsjahre. Das äußere Erscheinungsbild kann täuschen. Der Zustand des Vakuumsystems, die Dichtheit der Anlage oder der Zustand der Sicherheitsventile — das sind Bereiche, die Fachwissen und die richtigen Diagnosegeräte erfordern.

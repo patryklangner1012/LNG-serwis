@@ -3,7 +3,7 @@ title: "Kupujesz cysternę LNG? Najpierw audyt techniczny"
 date: "2026-04-17"
 tag: "Usługi"
 excerpt: "Dysponujemy specjalistycznym zapleczem diagnostycznym i wieloletnim doświadczeniem w obszarze naczep kriogenicznych. Nasz niezależny audyt przed zakupem to dokument, który mówi ci dokładnie, co kupujesz."
-image: "/images/posts/audyt-cysterny-mobilny.jpg"
+image: "/images/audyt-cysterny-mobilny.jpg"
 ---
 
 Zakup używanej cysterny kriogenicznej to decyzja, przy której stawką jest nie tylko kapitał — to również bezpieczeństwo operacyjne i zgodność techniczna na kolejne lata eksploatacji. Wygląd zewnętrzny naczepa może mylić. Stan układu próżniowego, szczelność instalacji czy kondycja zaworów bezpieczeństwa — to obszary, które wymagają wiedzy specjalistycznej i właściwego sprzętu diagnostycznego.

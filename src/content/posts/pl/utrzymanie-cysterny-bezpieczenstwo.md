@@ -3,7 +3,7 @@ title: "Bezpieczeństwo na drodze zaczyna się w warsztacie"
 date: "2026-04-14"
 tag: "Aktualność"
 excerpt: "Naczepa kriogeniczna transportująca skroplony gaz ziemny wymaga najwyższych standardów utrzymania. Dla nas to nie procedura — to fundament, na którym budujemy niezawodność dostaw."
-image: "/images/posts/utrzymanie-cysterny-lng.jpg"
+image: "/images/utrzymanie-cysterny-lng.jpg"
 ---
 
 Przewóz skroplonego gazu ziemnego to odpowiedzialność, która nie kończy się w chwili wyjazdu z bazy. Zaczyna się znacznie wcześniej — na stanowisku serwisowym, podczas codziennej inspekcji i w trakcie każdego przeglądu technicznego. To właśnie systematyczne podejście do utrzymania naczep kriogenicznych jest gwarancją, że nasze cysterny docierają do klientów bez opóźnień i bez kompromisów w kwestii bezpieczeństwa.

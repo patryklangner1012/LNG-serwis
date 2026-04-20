@@ -3,7 +3,7 @@ title: "Own Fleet — Time for Our Own"
 date: "2026-04-10"
 tag: "News"
 excerpt: "After the peak transport season, the workshop takes over. Comprehensive fleet inspection and preparation for the next operational cycle — this is how we ensure year-round reliability."
-image: "/images/posts/flota-wlasna-scania.jpg"
+image: "/images/flota-wlasna-scania.jpg"
 ---
 
 After every intensive transport season comes a time when the workshop becomes the company's operational centre. Now — when freight activity eases off — our technical team carries out one of the most important phases of the year: comprehensive preparation of our own fleet for the next operational cycle.

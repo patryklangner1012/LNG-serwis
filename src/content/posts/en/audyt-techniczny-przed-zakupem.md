@@ -3,7 +3,7 @@ title: "Buying an LNG Tanker? Start with a Technical Audit"
 date: "2026-04-17"
 tag: "Services"
 excerpt: "We have specialist diagnostic resources and extensive experience with cryogenic tankers. Our independent pre-purchase audit is a document that tells you exactly what you are buying."
-image: "/images/posts/audyt-cysterny-mobilny.jpg"
+image: "/images/audyt-cysterny-mobilny.jpg"
 ---
 
 Purchasing a used cryogenic tanker is a decision where the stakes are not just financial — it also concerns operational safety and technical compliance for years of use ahead. External appearance can be misleading. The condition of the vacuum system, the integrity of the installation, or the state of the safety valves — these are areas that require specialist knowledge and the right diagnostic equipment.

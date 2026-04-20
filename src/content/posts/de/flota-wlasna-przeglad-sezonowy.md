@@ -3,7 +3,7 @@ title: "Eigene Flotte — Zeit für uns selbst"
 date: "2026-04-10"
 tag: "Aktuell"
 excerpt: "Nach der Hochsaison im Transport übernimmt die Werkstatt das Steuer. Umfassende Inspektion und Vorbereitung der Flotte auf den nächsten Betriebszyklus — so sichern wir ganzjährige Zuverlässigkeit."
-image: "/images/posts/flota-wlasna-scania.jpg"
+image: "/images/flota-wlasna-scania.jpg"
 ---
 
 Nach jeder intensiven Transportsaison kommt eine Phase, in der die Werkstatt zum operativen Mittelpunkt des Unternehmens wird. Genau jetzt — wenn die Speditionsaufträge etwas nachlassen — führt unser technisches Team eine der wichtigsten Phasen des Jahres durch: die umfassende Vorbereitung der eigenen Flotte auf den nächsten Betriebszyklus.

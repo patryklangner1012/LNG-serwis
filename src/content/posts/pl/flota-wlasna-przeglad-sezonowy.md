@@ -3,7 +3,7 @@ title: "Flota własna — czas na własne"
 date: "2026-04-10"
 tag: "Aktualność"
 excerpt: "Po wzmożonym sezonie transportowym warsztat przejmuje inicjatywę. Kompleksowy przegląd i przygotowanie floty do kolejnego cyklu — tak zapewniamy niezawodność przez cały rok."
-image: "/images/posts/flota-wlasna-scania.jpg"
+image: "/images/flota-wlasna-scania.jpg"
 ---
 
 Po każdym intensywnym sezonie transportowym nadchodzi czas, kiedy to warsztat staje się centrum operacyjnym firmy. To właśnie teraz — gdy natężenie zleceń spedycyjnych nieco opada — nasz zespół techniczny realizuje jeden z najważniejszych etapów roku: kompleksowe przygotowanie floty własnej do kolejnego cyklu operacyjnego.

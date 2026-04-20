@@ -3,7 +3,7 @@ title: "Sicherheit auf der Straße beginnt in der Werkstatt"
 date: "2026-04-14"
 tag: "Aktuell"
 excerpt: "Ein Kryotankauflieger für den Transport von Flüssigerdgas erfordert höchste Wartungsstandards. Für uns ist das keine Vorschrift — es ist das Fundament, auf dem wir Lieferzuverlässigkeit aufbauen."
-image: "/images/posts/utrzymanie-cysterny-lng.jpg"
+image: "/images/utrzymanie-cysterny-lng.jpg"
 ---
 
 Der Transport von verflüssigtem Erdgas ist eine Verantwortung, die nicht endet, wenn das Fahrzeug das Gelände verlässt. Sie beginnt viel früher — am Servicestand, bei der täglichen Inspektion und bei jeder planmäßigen technischen Überprüfung. Dieser systematische Ansatz zur Instandhaltung von Kryotankaufliegern ist die Garantie dafür, dass unsere Fahrzeuge die Kunden ohne Verzögerungen und ohne Kompromisse bei der Sicherheit erreichen.
