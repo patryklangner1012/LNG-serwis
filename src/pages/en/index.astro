@@ -227,14 +227,15 @@ const posts = postFiles
       </a>
     </div>
     <div class="ng">
-      {posts.map((post, i) => (
-        <a href={post.url} class={`nc ${i === 0 ? 'big' : ''}`}>
+      {posts.map((post, i) => {
+        const slug = post.file.split('/').pop().replace('.md', '');
+        return (
+        <a href={`/en/posts/${slug}`} class={`nc ${i === 0 ? 'big' : ''}`}>
           <div class="nc-img">
             {post.frontmatter.image
               ? <img src={post.frontmatter.image} alt={post.frontmatter.title} loading="lazy" />
               : <div class="nc-ph"></div>
             }
-            <span class="nc-tag">{post.frontmatter.tag ?? 'News'}</span>
           </div>
           <div class="nc-body">
             <div class="nc-date">{new Date(post.frontmatter.date).toLocaleDateString('en-GB', { year:'numeric', month:'long' })}</div>
@@ -242,7 +243,8 @@ const posts = postFiles
             <p>{post.frontmatter.excerpt}</p>
           </div>
         </a>
-      ))}
+        );
+      })}
       {posts.length === 0 && (
         <p class="empty">The first posts will appear soon.</p>
       )}
