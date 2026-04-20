@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Nav from '../components/Nav.astro';
 
-const postFiles = await Astro.glob('../content/posts/*.md');
+const postFiles = await Astro.glob('../content/posts/pl/*.md');
 const posts = postFiles
   .sort((a, b) => new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime())
   .slice(0, 3);
