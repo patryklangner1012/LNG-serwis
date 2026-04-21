@@ -10,12 +10,11 @@ Nach jeder intensiven Transportsaison kommt eine Phase, in der die Werkstatt zum
 
 ## Ausfallzeiten sind Arbeitszeiten
 
-Für die Werkstatt gibt es keine Standzeiten. Perioden mit geringerer Transportaktivität werden vollständig für eine tiefgreifende Inspektion der Zugmaschinen und Auflieger genutzt. Wir schauen dort hin, wo im Alltag keine Zeit bleibt: Hydrauliksysteme, LNG-Gasanlagen, Federung, Bremssysteme, Elektrik und Steuergeräte — jede Komponente wird überprüft.
+Für die Werkstatt gibt es keine Standzeiten. Perioden mit geringerer Transportaktivität werden vollständig für eine tiefgreifende Inspektion der Zugmaschinen und Auflieger genutzt. Wir schauen dort hin, wo im Alltag keine Zeit bleibt: Hydrauliksysteme, Federung, Bremssysteme, Elektrik und Steuergeräte — jede Komponente wird überprüft.
 
 ## Saisonaler Wartungsumfang
 
 - Vollständige elektronische Diagnose der Antriebseinheiten
-- Inspektion und Wartung der LNG-Anlagen (Dichtungen, Ventile, Sensoren)
 - Überprüfung der Bremsanlage und Federung
 - Technische Zustandsbewertung der Auflieger — Rahmen, Achsen, Installationen
 - Wechsel der Betriebsflüssigkeiten gemäß Wartungsplan

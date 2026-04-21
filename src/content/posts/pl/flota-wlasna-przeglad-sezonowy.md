@@ -10,12 +10,11 @@ Po każdym intensywnym sezonie transportowym nadchodzi czas, kiedy to warsztat s
 
 ## Czas przerwy to czas pracy
 
-Dla warsztatu nie ma przestojów. Okres obniżonej aktywności transportowej jest w pełni wykorzystywany na dogłębną inspekcję ciągników siodłowych oraz naczep. Wchodzimy tam, gdzie na co dzień nie ma możliwości ani czasu: układy hydrauliczne, instalacje gazowe LNG, zawieszenia, układy hamulcowe, elektryka i diagnostyka sterowników — każdy element jest weryfikowany.
+Dla warsztatu nie ma przestojów. Okres obniżonej aktywności transportowej jest w pełni wykorzystywany na dogłębną inspekcję ciągników siodłowych oraz naczep. Wchodzimy tam, gdzie na co dzień nie ma możliwości ani czasu: układy hydrauliczne, zawieszenia, układy hamulcowe, elektryka i diagnostyka sterowników — każdy element jest weryfikowany.
 
 ## Zakres prac sezonowych
 
 - Pełna diagnostyka elektroniczna jednostek napędowych
-- Inspekcja i serwis instalacji LNG (uszczelnienia, zawory, czujniki)
 - Przegląd układów hamulcowych i zawieszenia
 - Kontrola stanu technicznego naczep — ramy, osie, instalacje
 - Wymiana płynów eksploatacyjnych zgodnie z harmonogramem

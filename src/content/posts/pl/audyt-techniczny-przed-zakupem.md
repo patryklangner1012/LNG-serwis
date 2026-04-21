@@ -27,6 +27,6 @@ Audyt możemy przeprowadzić zarówno stacjonarnie w naszym warsztacie, jak i w 
 
 ## Pewność zakupu w jednym dokumencie
 
-Kompletny raport audytowy, który otrzymujesz po zakończeniu inspekcji, zawiera ocenę stanu technicznego każdego kluczowego układu wraz z zaleceniami serwisowymi. To dokument, który możesz przedstawić przy negocjacjach, ubezpieczeniu lub rejestracji — i który eliminuje ryzyko kosztownych niespodzianek po transakcji.
+Kompletny raport audytowy, który otrzymujesz po zakończeniu inspekcji, zawiera ocenę stanu technicznego każdego kluczowego układu wraz z zaleceniami serwisowymi. To dokument, który możesz przedstawić przy negocjacjach — i który eliminuje ryzyko kosztownych niespodzianek po transakcji.
 
 Zanim podpiszesz umowę, upewnij się, że wiesz dokładnie, co kupujesz.

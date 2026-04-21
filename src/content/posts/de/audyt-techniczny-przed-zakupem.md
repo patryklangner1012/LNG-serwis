@@ -27,6 +27,6 @@ Das Audit kann entweder in unserer stationären Werkstatt oder vor Ort durchgef�
 
 ## Kaufsicherheit in einem Dokument
 
-Der vollständige Prüfbericht, den Sie nach Abschluss der Inspektion erhalten, enthält eine technische Zustandsbewertung jedes wichtigen Systems zusammen mit Serviceempfehlungen. Es ist ein Dokument, das Sie bei Verhandlungen, für Versicherungszwecke oder bei der Zulassung vorlegen können — und das das Risiko kostspieliger Überraschungen nach der Transaktion eliminiert.
+Der vollständige Prüfbericht, den Sie nach Abschluss der Inspektion erhalten, enthält eine technische Zustandsbewertung jedes wichtigen Systems zusammen mit Serviceempfehlungen. Es ist ein Dokument, das Sie bei Verhandlungen vorlegen können — und das das Risiko kostspieliger Überraschungen nach der Transaktion eliminiert.
 
 Bevor Sie den Vertrag unterzeichnen, stellen Sie sicher, dass Sie genau wissen, was Sie kaufen.

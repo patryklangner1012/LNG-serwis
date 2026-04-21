@@ -27,6 +27,6 @@ The audit can be carried out either at our stationary workshop or on-site — it
 
 ## Purchase Confidence in One Document
 
-The complete audit report you receive upon completion of the inspection contains a technical condition assessment of every key system, together with service recommendations. It is a document you can present during negotiations, for insurance purposes, or at registration — and one that eliminates the risk of costly surprises after the transaction.
+The complete audit report you receive upon completion of the inspection contains a technical condition assessment of every key system, together with service recommendations. It is a document you can present during negotiations — and one that eliminates the risk of costly surprises after the transaction.
 
 Before you sign the contract, make sure you know exactly what you are buying.

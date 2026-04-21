@@ -29,7 +29,6 @@ const posts = postFiles.sort((a, b) =>
               ? <img src={post.frontmatter.image} alt={post.frontmatter.title} loading="lazy" />
               : <div class="pc-ph"></div>
             }
-            <span class="pc-tag">{post.frontmatter.tag ?? 'Aktuell'}</span>
           </div>
           <div class="pc-body">
             <div class="pc-date">{new Date(post.frontmatter.date).toLocaleDateString('de-DE', { year:'numeric', month:'long', day:'numeric' })}</div>

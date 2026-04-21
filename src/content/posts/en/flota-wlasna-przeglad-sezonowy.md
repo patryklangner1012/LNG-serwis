@@ -10,12 +10,11 @@ After every intensive transport season comes a time when the workshop becomes th
 
 ## Downtime Is Work Time
 
-For the workshop, there are no standstills. Periods of reduced transport activity are fully used for an in-depth inspection of tractor units and trailers. We go wherever daily schedules normally don't allow: hydraulic systems, LNG gas installations, suspension, braking systems, electrics and control unit diagnostics — every component is thoroughly verified.
+For the workshop, there are no standstills. Periods of reduced transport activity are fully used for an in-depth inspection of tractor units and trailers. We go wherever daily schedules normally don't allow: hydraulic systems, suspension, braking systems, electrics and control unit diagnostics — every component is thoroughly verified.
 
 ## Scope of Seasonal Work
 
 - Full electronic diagnostics of the drive units
-- Inspection and servicing of LNG installations (seals, valves, sensors)
 - Brake system and suspension check
 - Technical condition assessment of trailers — frame, axles, installations
 - Replacement of operating fluids in line with the maintenance schedule
